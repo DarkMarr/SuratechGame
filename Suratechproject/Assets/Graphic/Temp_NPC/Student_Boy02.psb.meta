@@ -1,0 +1,1899 @@
+fileFormatVersion: 2
+guid: 21ab3f2747fd4d14485eb065231e9ec1
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: b2a9591990af98743ba3ff7cf1000886, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 1
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
+    isReadable: 0
+    streamingMipmaps: 1
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMipmapLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  spriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+    spritePosition: {x: 0, y: 0}
+  mosaicSpriteImportData: []
+  rigSpriteImportData:
+  - name: BoyA_Left_Arm
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 382
+      width: 42
+      height: 74
+    spriteID: 76103010906630a4eac370ecfc480020
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 382}
+    spritePosition: {x: 152, y: 243}
+  - name: BoyA_Left_Hand
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 54
+      y: 382
+      width: 27
+      height: 88
+    spriteID: 4430f5697d7eae3408b73ef1e09ae6af
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 54, y: 382}
+    spritePosition: {x: 169, y: 171}
+  - name: BoyA_Head
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 89
+      y: 4
+      width: 85
+      height: 101
+    spriteID: 5cc8f3cd9fa97da40a5914cac3ed8982
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 89, y: 4}
+    spritePosition: {x: 88, y: 334}
+  - name: Vector Smart Object
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 227
+      width: 48
+      height: 147
+    spriteID: f902eab4e7adb1443b464f7515155002
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 227}
+    spritePosition: {x: 79, y: 11}
+  - name: BoyA_Left_Foot
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 89
+      y: 113
+      width: 34
+      height: 148
+    spriteID: a3aec4a0561126a4cbad4a842876ef99
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 89, y: 113}
+    spritePosition: {x: 129, y: 11}
+  - name: Vector Smart Object
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 131
+      y: 113
+      width: 42
+      height: 74
+    spriteID: ecbac256e8de54444ab0c520a1e50c6b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 131, y: 113}
+    spritePosition: {x: 63, y: 242}
+  - name: Vector Smart Object
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 89
+      y: 269
+      width: 27
+      height: 88
+    spriteID: a670e13fb91c97d4d8a1b56c9b23818c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 89, y: 269}
+    spritePosition: {x: 60, y: 170}
+  - name: BoyA_Body
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 77
+      height: 215
+    spriteID: 218fa68c46515d243955cd8fceac1b19
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+    spritePosition: {x: 89, y: 128}
+  characterData:
+    bones: []
+    parts: []
+    dimension: {x: 0, y: 0}
+    characterGroups: []
+    pivot: {x: 0, y: 0}
+    boneReadOnly: 0
+  sharedRigSpriteImportData: []
+  sharedRigCharacterData:
+    bones: []
+    parts: []
+    dimension: {x: 0, y: 0}
+    characterGroups: []
+    pivot: {x: 0, y: 0}
+    boneReadOnly: 0
+  platformSettings: []
+  mosaicLayers: 1
+  characterMode: 1
+  documentPivot: {x: 0, y: 0}
+  documentAlignment: 7
+  importHiddenLayers: 0
+  layerMappingOption: 2
+  generatePhysicsShape: 0
+  paperDollMode: 0
+  keepDupilcateSpriteName: 1
+  skeletonAssetReferenceID: 
+  padding: 4
+  spriteSizeExpand: 0
+  spriteCategoryList:
+    categories: []
+  spritePackingTag: 
+  resliceFromLayer: 0
+  mosaicPSDLayers: []
+  rigPSDLayers:
+  - name: Thief
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: 0e90a2cba3cf63348b5d1e41cff807ef
+    layerID: 424
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 0
+  - name: Vector Smart Object
+    spriteName: 
+    isGroup: 0
+    parentIndex: 0
+    spriteID: 7c6cca947613e9847a88f42e1ab3f7dd
+    layerID: 426
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Vector Smart Object
+    spriteName: 
+    isGroup: 0
+    parentIndex: 0
+    spriteID: ffff591b0be810f48bf3b811aa4e092a
+    layerID: 436
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Vector Smart Object
+    spriteName: 
+    isGroup: 0
+    parentIndex: 0
+    spriteID: fe7fae8f2cfa8c34cb8b2b75df41346a
+    layerID: 434
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Vector Smart Object
+    spriteName: 
+    isGroup: 0
+    parentIndex: 0
+    spriteID: 9ebcbde383f759e4ba4989a529a2e973
+    layerID: 440
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Vector Smart Object
+    spriteName: 
+    isGroup: 0
+    parentIndex: 0
+    spriteID: 0698e12f983b6234dba4957218ae32dd
+    layerID: 438
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Vector Smart Object
+    spriteName: 
+    isGroup: 0
+    parentIndex: 0
+    spriteID: f55b7eb720d3153418b24d383e9cc949
+    layerID: 428
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Vector Smart Object
+    spriteName: 
+    isGroup: 0
+    parentIndex: 0
+    spriteID: 028f23c044562164b88134b68e8e84fc
+    layerID: 432
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Vector Smart Object
+    spriteName: 
+    isGroup: 0
+    parentIndex: 0
+    spriteID: 244092cbaa9625e4b945778c944cdf2a
+    layerID: 430
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Teen002
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: 13cec5f70623aff499727e09de962545
+    layerID: 406
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 0
+  - name: Vector Smart Object
+    spriteName: 
+    isGroup: 0
+    parentIndex: 9
+    spriteID: 5606e6723f9eb8c47b40b01ef1c62009
+    layerID: 408
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Vector Smart Object
+    spriteName: 
+    isGroup: 0
+    parentIndex: 9
+    spriteID: 5742c10168a91984b95ec6a26735854e
+    layerID: 418
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Vector Smart Object
+    spriteName: 
+    isGroup: 0
+    parentIndex: 9
+    spriteID: 4915b662c9c55e84ab10df9f68d97936
+    layerID: 416
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Vector Smart Object
+    spriteName: 
+    isGroup: 0
+    parentIndex: 9
+    spriteID: 8c30ec813db45e642a6f16f028d5f05b
+    layerID: 410
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Vector Smart Object
+    spriteName: 
+    isGroup: 0
+    parentIndex: 9
+    spriteID: 59a831be942dbd74f81fe61a737c647f
+    layerID: 422
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Vector Smart Object
+    spriteName: 
+    isGroup: 0
+    parentIndex: 9
+    spriteID: 72d0eaafbeb26d843ac548942b58cf62
+    layerID: 420
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Vector Smart Object
+    spriteName: 
+    isGroup: 0
+    parentIndex: 9
+    spriteID: c43df543bec659c40881f74e9f696101
+    layerID: 414
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Vector Smart Object
+    spriteName: 
+    isGroup: 0
+    parentIndex: 9
+    spriteID: d813f58c652019e49982d868645655b4
+    layerID: 412
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Teen001
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: e882a0d9267aba1489f3a94f62e42344
+    layerID: 388
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 0
+  - name: Vector Smart Object
+    spriteName: 
+    isGroup: 0
+    parentIndex: 18
+    spriteID: 0fadcb26274d3f84a94f28c70d72f011
+    layerID: 390
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Vector Smart Object
+    spriteName: 
+    isGroup: 0
+    parentIndex: 18
+    spriteID: 8fb1e6c1baa3775469930eebc1a1a65e
+    layerID: 392
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Vector Smart Object
+    spriteName: 
+    isGroup: 0
+    parentIndex: 18
+    spriteID: 3ce1ecb3bcfca9e4f8a277b15bbb143c
+    layerID: 404
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Vector Smart Object
+    spriteName: 
+    isGroup: 0
+    parentIndex: 18
+    spriteID: 5b5385571e66d3d4497f57eeb5262bf6
+    layerID: 402
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Vector Smart Object
+    spriteName: 
+    isGroup: 0
+    parentIndex: 18
+    spriteID: 92a62bf788e226344afd8ec93213164d
+    layerID: 400
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Vector Smart Object
+    spriteName: 
+    isGroup: 0
+    parentIndex: 18
+    spriteID: ff19a7bdcdb919548a70da7d6885ec65
+    layerID: 398
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Vector Smart Object
+    spriteName: 
+    isGroup: 0
+    parentIndex: 18
+    spriteID: 19a9594d63712274d9f4d9967e52fb55
+    layerID: 396
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Vector Smart Object
+    spriteName: 
+    isGroup: 0
+    parentIndex: 18
+    spriteID: e10f0fd78ad85bd459d170dfcfee7eba
+    layerID: 394
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Teacher
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: 50e62851fe8f84d4fa02a4350aa1bc73
+    layerID: 370
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 0
+  - name: Vector Smart Object
+    spriteName: 
+    isGroup: 0
+    parentIndex: 27
+    spriteID: 062c7f835ad33fd46af992bb763d1ad5
+    layerID: 372
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Vector Smart Object
+    spriteName: 
+    isGroup: 0
+    parentIndex: 27
+    spriteID: ff1446caaa3c8dd4c80ae9e415e547f1
+    layerID: 378
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Vector Smart Object
+    spriteName: 
+    isGroup: 0
+    parentIndex: 27
+    spriteID: 769885f9b56a8924a99609941c452ca0
+    layerID: 376
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Vector Smart Object
+    spriteName: 
+    isGroup: 0
+    parentIndex: 27
+    spriteID: eaf5eb9b415033a42a0e8e3baa5604ed
+    layerID: 374
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Vector Smart Object
+    spriteName: 
+    isGroup: 0
+    parentIndex: 27
+    spriteID: fd8f24b62a074e14784598f5f5255337
+    layerID: 382
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Vector Smart Object
+    spriteName: 
+    isGroup: 0
+    parentIndex: 27
+    spriteID: baebc7941f5ec754c9715af360d045f1
+    layerID: 386
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Vector Smart Object
+    spriteName: 
+    isGroup: 0
+    parentIndex: 27
+    spriteID: 31c15eb3f3929e94aa9f804eff59da64
+    layerID: 384
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Vector Smart Object
+    spriteName: 
+    isGroup: 0
+    parentIndex: 27
+    spriteID: bf9dff7170cdac8459a55e02e9c4b710
+    layerID: 380
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Student_Girl
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: d9f65c060e989b143b62991d933a3b7c
+    layerID: 352
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 0
+  - name: Vector Smart Object
+    spriteName: 
+    isGroup: 0
+    parentIndex: 36
+    spriteID: 7b661649458a0094d8223d8136c9ea0a
+    layerID: 354
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Vector Smart Object
+    spriteName: 
+    isGroup: 0
+    parentIndex: 36
+    spriteID: 07be623c53b528d46a4162ba6c9d1b23
+    layerID: 360
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Vector Smart Object
+    spriteName: 
+    isGroup: 0
+    parentIndex: 36
+    spriteID: d61887cbab8b99341a3f8cf3a289785f
+    layerID: 358
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Vector Smart Object
+    spriteName: 
+    isGroup: 0
+    parentIndex: 36
+    spriteID: ce654119be5b29c4a993ec795e8e05ca
+    layerID: 356
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Vector Smart Object
+    spriteName: 
+    isGroup: 0
+    parentIndex: 36
+    spriteID: 2ccfcdf4c48a3fb40ac32d79ea7779c9
+    layerID: 368
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Vector Smart Object
+    spriteName: 
+    isGroup: 0
+    parentIndex: 36
+    spriteID: b91213224c8ab5e4c861b99a7186138d
+    layerID: 366
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Vector Smart Object
+    spriteName: 
+    isGroup: 0
+    parentIndex: 36
+    spriteID: 63e3b7d9c8d6c98449ce5d44605a6a81
+    layerID: 364
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Vector Smart Object
+    spriteName: 
+    isGroup: 0
+    parentIndex: 36
+    spriteID: b32d5ba7886ea194da256abb7fc72bab
+    layerID: 362
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Student_Boy
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: 568a996b8f18f714fb3fb1161c27f54b
+    layerID: 334
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 0
+  - name: Vector Smart Object
+    spriteName: 
+    isGroup: 0
+    parentIndex: 45
+    spriteID: 1f999ec3d7aa6e74aa515194e39143d8
+    layerID: 336
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Vector Smart Object
+    spriteName: 
+    isGroup: 0
+    parentIndex: 45
+    spriteID: b995385f09e0999489a8d35e154f9c1c
+    layerID: 340
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Vector Smart Object
+    spriteName: 
+    isGroup: 0
+    parentIndex: 45
+    spriteID: 4074f2a4e27396548ac701d1178d2715
+    layerID: 344
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Vector Smart Object
+    spriteName: 
+    isGroup: 0
+    parentIndex: 45
+    spriteID: 668d7ad9f4402974bb7b0f7ec0c8d292
+    layerID: 350
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Vector Smart Object
+    spriteName: 
+    isGroup: 0
+    parentIndex: 45
+    spriteID: 686638e940561344f9c0674f7df6a1d5
+    layerID: 348
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Vector Smart Object
+    spriteName: 
+    isGroup: 0
+    parentIndex: 45
+    spriteID: e6c802bce904ac749a876e7d5fd04a9a
+    layerID: 346
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Vector Smart Object
+    spriteName: 
+    isGroup: 0
+    parentIndex: 45
+    spriteID: 545bd4fcdd46f4245a0daf07e12e6dfd
+    layerID: 342
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Vector Smart Object
+    spriteName: 
+    isGroup: 0
+    parentIndex: 45
+    spriteID: 929c99de67ce9a54e8e221a66f286b67
+    layerID: 338
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Police
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: 02b951f1280fea64b8b303a1cbb67264
+    layerID: 316
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 0
+  - name: Vector Smart Object
+    spriteName: 
+    isGroup: 0
+    parentIndex: 54
+    spriteID: 8deba5cbb7a27da49a93fd01e316d7e5
+    layerID: 318
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Vector Smart Object
+    spriteName: 
+    isGroup: 0
+    parentIndex: 54
+    spriteID: 33b64c72ed4ea32468c227e041e730c2
+    layerID: 332
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Vector Smart Object
+    spriteName: 
+    isGroup: 0
+    parentIndex: 54
+    spriteID: 24b8f678b5368974f9c901226ad644e4
+    layerID: 320
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Vector Smart Object
+    spriteName: 
+    isGroup: 0
+    parentIndex: 54
+    spriteID: d54dbc8570f68534785fd4c2151a2bc9
+    layerID: 330
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Vector Smart Object
+    spriteName: 
+    isGroup: 0
+    parentIndex: 54
+    spriteID: 591c0376a2d3df74caab5ebbff6b5a50
+    layerID: 328
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Vector Smart Object
+    spriteName: 
+    isGroup: 0
+    parentIndex: 54
+    spriteID: 9f5c73e91da600945bc20ed92ce4b021
+    layerID: 326
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Vector Smart Object
+    spriteName: 
+    isGroup: 0
+    parentIndex: 54
+    spriteID: 6c3a94e688de4e94c857ecdcad80b377
+    layerID: 324
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Vector Smart Object
+    spriteName: 
+    isGroup: 0
+    parentIndex: 54
+    spriteID: a8a4a96f3c1a67e418b52127f9239592
+    layerID: 322
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Mom
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: 43fb28bd488d0f64fb21a68f206b1c4b
+    layerID: 298
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 0
+  - name: Vector Smart Object
+    spriteName: 
+    isGroup: 0
+    parentIndex: 63
+    spriteID: d998783ceb394f44d911fda5d9510c2f
+    layerID: 304
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Vector Smart Object
+    spriteName: 
+    isGroup: 0
+    parentIndex: 63
+    spriteID: 2bc522fbe3492f94c96b91b9f9b5b0b3
+    layerID: 306
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Vector Smart Object
+    spriteName: 
+    isGroup: 0
+    parentIndex: 63
+    spriteID: 98c06ecc47b67f94baf74c16f6705508
+    layerID: 302
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Vector Smart Object
+    spriteName: 
+    isGroup: 0
+    parentIndex: 63
+    spriteID: 00b09c28cc25a9c47b37decf17fe27d9
+    layerID: 314
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Vector Smart Object
+    spriteName: 
+    isGroup: 0
+    parentIndex: 63
+    spriteID: 9ad3806b19953dd45a5636de8a4fa48f
+    layerID: 312
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Vector Smart Object
+    spriteName: 
+    isGroup: 0
+    parentIndex: 63
+    spriteID: b527c6a33ff2e2742b3c43763042594b
+    layerID: 310
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Vector Smart Object
+    spriteName: 
+    isGroup: 0
+    parentIndex: 63
+    spriteID: 28e5a7f4ecd3bcc479726b3e19b58fa6
+    layerID: 308
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Vector Smart Object
+    spriteName: 
+    isGroup: 0
+    parentIndex: 63
+    spriteID: 4e895ae9528be36458a3a2726805850b
+    layerID: 300
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Girl_B002
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: d8bde69c9b40d874fb818d38bd7c89cf
+    layerID: 278
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 0
+  - name: Vector Smart Object
+    spriteName: 
+    isGroup: 0
+    parentIndex: 72
+    spriteID: 1b87ddab57db94f44853a4e05f734742
+    layerID: 280
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Vector Smart Object
+    spriteName: 
+    isGroup: 0
+    parentIndex: 72
+    spriteID: 4e7214638f3e9b643aeef2ab5879aef2
+    layerID: 284
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Vector Smart Object
+    spriteName: 
+    isGroup: 0
+    parentIndex: 72
+    spriteID: 16ac14fe4c1e18d4d9d9684dfa004ee3
+    layerID: 286
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Vector Smart Object
+    spriteName: 
+    isGroup: 0
+    parentIndex: 72
+    spriteID: cd4829c2455f7e746907faf7b1eea3aa
+    layerID: 290
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Vector Smart Object
+    spriteName: 
+    isGroup: 0
+    parentIndex: 72
+    spriteID: 786c06261e4a8384a81278040695fc4a
+    layerID: 288
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Vector Smart Object
+    spriteName: 
+    isGroup: 0
+    parentIndex: 72
+    spriteID: 67bdb244dcf1fed4bb26144f19656ecb
+    layerID: 294
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Vector Smart Object
+    spriteName: 
+    isGroup: 0
+    parentIndex: 72
+    spriteID: e0e93b01930337540878973c35eb4196
+    layerID: 292
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Vector Smart Object
+    spriteName: 
+    isGroup: 0
+    parentIndex: 72
+    spriteID: 6e649ffd757cda04ab582793a6048dbf
+    layerID: 296
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Vector Smart Object
+    spriteName: 
+    isGroup: 0
+    parentIndex: 72
+    spriteID: bd5e4ce8dbaa6374ea851ece200d1a8b
+    layerID: 282
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Girl_B
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: 00e657e521e4fcf4e88d8b91d0c94b75
+    layerID: 258
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 0
+  - name: Vector Smart Object
+    spriteName: 
+    isGroup: 0
+    parentIndex: 82
+    spriteID: f6fcef5be9598104281ee5e76fd4cc4c
+    layerID: 272
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Vector Smart Object
+    spriteName: 
+    isGroup: 0
+    parentIndex: 82
+    spriteID: 791d84e607a2f884dbff804ccd37caa1
+    layerID: 268
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Vector Smart Object
+    spriteName: 
+    isGroup: 0
+    parentIndex: 82
+    spriteID: ffba4d509ed995f49971f5c62657414c
+    layerID: 260
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Vector Smart Object
+    spriteName: 
+    isGroup: 0
+    parentIndex: 82
+    spriteID: 32eb242506e526c4dbeb2371c57d76d3
+    layerID: 264
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Vector Smart Object
+    spriteName: 
+    isGroup: 0
+    parentIndex: 82
+    spriteID: e52ea1698262e0c4b9ab13fad3fd7fe1
+    layerID: 266
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Vector Smart Object
+    spriteName: 
+    isGroup: 0
+    parentIndex: 82
+    spriteID: bfb2568d0e31f8948b9ff13cf5475211
+    layerID: 270
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Vector Smart Object
+    spriteName: 
+    isGroup: 0
+    parentIndex: 82
+    spriteID: 0b7aa4a7bc5ce6647879cf0055eccd02
+    layerID: 274
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Vector Smart Object
+    spriteName: 
+    isGroup: 0
+    parentIndex: 82
+    spriteID: b8a2f30857a51104ca3ebb4f2b29f1b6
+    layerID: 276
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Vector Smart Object
+    spriteName: 
+    isGroup: 0
+    parentIndex: 82
+    spriteID: 2ede237eba1f7a84b903f3e521254350
+    layerID: 262
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Girl_A002
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: 0eced6d29a79e5a4681c97b691231721
+    layerID: 188
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 0
+  - name: Vector Smart Object
+    spriteName: 
+    isGroup: 0
+    parentIndex: 92
+    spriteID: 93c16b2951e7e184e8c7d873e1c2ff86
+    layerID: 254
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Vector Smart Object
+    spriteName: 
+    isGroup: 0
+    parentIndex: 92
+    spriteID: 36c65e3e7d113ed42a3263bed8bd2fae
+    layerID: 252
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Vector Smart Object
+    spriteName: 
+    isGroup: 0
+    parentIndex: 92
+    spriteID: b41097727a06f5843aa5f9c7bae8bc68
+    layerID: 250
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Vector Smart Object
+    spriteName: 
+    isGroup: 0
+    parentIndex: 92
+    spriteID: c1335d395ef47e74a81d092b1be36529
+    layerID: 248
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Vector Smart Object
+    spriteName: 
+    isGroup: 0
+    parentIndex: 92
+    spriteID: c6141665f1a51014db202977ec8fe303
+    layerID: 240
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Vector Smart Object
+    spriteName: 
+    isGroup: 0
+    parentIndex: 92
+    spriteID: 518b4bc3ae82e1f458044e37261fc917
+    layerID: 246
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Vector Smart Object
+    spriteName: 
+    isGroup: 0
+    parentIndex: 92
+    spriteID: 7d2c022c2a4021648b8b879ae71c7040
+    layerID: 244
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Vector Smart Object
+    spriteName: 
+    isGroup: 0
+    parentIndex: 92
+    spriteID: 60af4100018e0a541af1ad73aa9a8fde
+    layerID: 256
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Vector Smart Object
+    spriteName: 
+    isGroup: 0
+    parentIndex: 92
+    spriteID: 94592d1b53eea364f9b0976c1e80cdc4
+    layerID: 242
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Girl_A
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: c4c242990f6183e4489c2bc059faaf14
+    layerID: 118
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 0
+  - name: Vector Smart Object
+    spriteName: 
+    isGroup: 0
+    parentIndex: 102
+    spriteID: d7b07cdf43b543b4492fe347ce8dbec1
+    layerID: 120
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Vector Smart Object
+    spriteName: 
+    isGroup: 0
+    parentIndex: 102
+    spriteID: c62023e74db5e144b8bbdebb499791b5
+    layerID: 130
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Vector Smart Object
+    spriteName: 
+    isGroup: 0
+    parentIndex: 102
+    spriteID: b84f099546a23514799dd13a849771b7
+    layerID: 126
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Vector Smart Object
+    spriteName: 
+    isGroup: 0
+    parentIndex: 102
+    spriteID: 7117b39cb2615f644b45103f9f96d60c
+    layerID: 124
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Vector Smart Object
+    spriteName: 
+    isGroup: 0
+    parentIndex: 102
+    spriteID: eb14727ad22e2c14a8c3058fe990fb04
+    layerID: 128
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Vector Smart Object
+    spriteName: 
+    isGroup: 0
+    parentIndex: 102
+    spriteID: 722badb6319efc645b303da1e916aaf0
+    layerID: 132
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Vector Smart Object
+    spriteName: 
+    isGroup: 0
+    parentIndex: 102
+    spriteID: 4b0b25ea25d1836449da7cf6ed9e0eaa
+    layerID: 134
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Vector Smart Object
+    spriteName: 
+    isGroup: 0
+    parentIndex: 102
+    spriteID: d3067df34f311624f931fbdf2178a7ce
+    layerID: 136
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Vector Smart Object
+    spriteName: 
+    isGroup: 0
+    parentIndex: 102
+    spriteID: 67208352c05a9394b8e85e9828e1ed03
+    layerID: 122
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Boy_B002
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: 3c77390efee7c294b9a679f03a9186b2
+    layerID: 100
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 0
+  - name: Vector Smart Object
+    spriteName: 
+    isGroup: 0
+    parentIndex: 112
+    spriteID: dd0cd3c518bf2d34bb89d143de40fd39
+    layerID: 116
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Vector Smart Object
+    spriteName: 
+    isGroup: 0
+    parentIndex: 112
+    spriteID: cf75bede0e5864146a9698a97a30ac1e
+    layerID: 114
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Vector Smart Object
+    spriteName: 
+    isGroup: 0
+    parentIndex: 112
+    spriteID: 84bfb6b759518bc48ba21038fb11b975
+    layerID: 102
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Vector Smart Object
+    spriteName: 
+    isGroup: 0
+    parentIndex: 112
+    spriteID: 344bfa17787a8f947881c73c2e522848
+    layerID: 112
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Vector Smart Object
+    spriteName: 
+    isGroup: 0
+    parentIndex: 112
+    spriteID: e6c16c5711cab0c49bc40a6f6d4b5aef
+    layerID: 108
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Vector Smart Object
+    spriteName: 
+    isGroup: 0
+    parentIndex: 112
+    spriteID: 0f6dfe3a4d43c1248824ad199e07fb12
+    layerID: 110
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Vector Smart Object
+    spriteName: 
+    isGroup: 0
+    parentIndex: 112
+    spriteID: 99cc3f7bdc9749f4696c8a93f246c75a
+    layerID: 106
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Vector Smart Object
+    spriteName: 
+    isGroup: 0
+    parentIndex: 112
+    spriteID: 8b945c80fbe3b9c47869341a8f8a0444
+    layerID: 104
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Boy_B
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: 5df0521bb97fce34bb9a6574de563054
+    layerID: 80
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 0
+  - name: Vector Smart Object
+    spriteName: 
+    isGroup: 0
+    parentIndex: 121
+    spriteID: 1fec70479bbefd841a2494547e6bef01
+    layerID: 82
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Vector Smart Object
+    spriteName: 
+    isGroup: 0
+    parentIndex: 121
+    spriteID: 0b207f0e57fe8194db4fe565ce2b282f
+    layerID: 98
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Vector Smart Object
+    spriteName: 
+    isGroup: 0
+    parentIndex: 121
+    spriteID: 906fed53de84f7a428846314e37e7127
+    layerID: 96
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Vector Smart Object
+    spriteName: 
+    isGroup: 0
+    parentIndex: 121
+    spriteID: 9849dc428773b45499f9d1bba5d17bb1
+    layerID: 94
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Vector Smart Object
+    spriteName: 
+    isGroup: 0
+    parentIndex: 121
+    spriteID: ab3f516fbf55735419932b12b1dc9f4a
+    layerID: 90
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Vector Smart Object
+    spriteName: 
+    isGroup: 0
+    parentIndex: 121
+    spriteID: 18f3f7e796d6a414dbd4516f0c5badad
+    layerID: 86
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Vector Smart Object
+    spriteName: 
+    isGroup: 0
+    parentIndex: 121
+    spriteID: c4867a1a2a8eb4a4197d05edfbf6c5ca
+    layerID: 84
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Vector Smart Object
+    spriteName: 
+    isGroup: 0
+    parentIndex: 121
+    spriteID: bd9f8219346b3634eae440e42411ff93
+    layerID: 88
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Boy_A002
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: b3d35ecab3421df4b9089ade05ad79f5
+    layerID: 60
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 0
+  - name: Vector Smart Object
+    spriteName: 
+    isGroup: 0
+    parentIndex: 130
+    spriteID: 0ac269b3fbf63ab419a2912598730e58
+    layerID: 62
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Vector Smart Object
+    spriteName: 
+    isGroup: 0
+    parentIndex: 130
+    spriteID: 76e50ddef479f71438bef09dbf4999f8
+    layerID: 78
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Vector Smart Object
+    spriteName: 
+    isGroup: 0
+    parentIndex: 130
+    spriteID: f0b2caf34217f3f41985950ad5dbaab7
+    layerID: 76
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Vector Smart Object
+    spriteName: 
+    isGroup: 0
+    parentIndex: 130
+    spriteID: c49b8f3be29df90429d55b60a7e79066
+    layerID: 74
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Vector Smart Object
+    spriteName: 
+    isGroup: 0
+    parentIndex: 130
+    spriteID: 967c7aac0b6cf2742ba5c8d2a323915d
+    layerID: 72
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Vector Smart Object
+    spriteName: 
+    isGroup: 0
+    parentIndex: 130
+    spriteID: b7f8b68af06ca5149a0a1fcf086626ab
+    layerID: 68
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Vector Smart Object
+    spriteName: 
+    isGroup: 0
+    parentIndex: 130
+    spriteID: f7d3c8b9bd1767b46882bd4cbfe227d3
+    layerID: 66
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Vector Smart Object
+    spriteName: 
+    isGroup: 0
+    parentIndex: 130
+    spriteID: 56cb0086a2c5b7246aec35f35ae0fe01
+    layerID: 64
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Boy_A
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: 51067be7e5b5c8f49ad901f3ed00862a
+    layerID: 25
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: BoyA_Left_Arm
+    spriteName: BoyA_Left_Arm
+    isGroup: 0
+    parentIndex: 139
+    spriteID: 76103010906630a4eac370ecfc480020
+    layerID: 31
+    mosaicPosition: {x: 4, y: 382}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: BoyA_Left_Hand
+    spriteName: BoyA_Left_Hand
+    isGroup: 0
+    parentIndex: 139
+    spriteID: 4430f5697d7eae3408b73ef1e09ae6af
+    layerID: 29
+    mosaicPosition: {x: 54, y: 382}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: BoyA_Head
+    spriteName: BoyA_Head
+    isGroup: 0
+    parentIndex: 139
+    spriteID: 5cc8f3cd9fa97da40a5914cac3ed8982
+    layerID: 27
+    mosaicPosition: {x: 89, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Vector Smart Object
+    spriteName: Vector Smart Object
+    isGroup: 0
+    parentIndex: 139
+    spriteID: f902eab4e7adb1443b464f7515155002
+    layerID: 37
+    mosaicPosition: {x: 4, y: 227}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: BoyA_Left_Foot
+    spriteName: BoyA_Left_Foot
+    isGroup: 0
+    parentIndex: 139
+    spriteID: a3aec4a0561126a4cbad4a842876ef99
+    layerID: 35
+    mosaicPosition: {x: 89, y: 113}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Vector Smart Object
+    spriteName: Vector Smart Object
+    isGroup: 0
+    parentIndex: 139
+    spriteID: ecbac256e8de54444ab0c520a1e50c6b
+    layerID: 39
+    mosaicPosition: {x: 131, y: 113}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Vector Smart Object
+    spriteName: Vector Smart Object
+    isGroup: 0
+    parentIndex: 139
+    spriteID: a670e13fb91c97d4d8a1b56c9b23818c
+    layerID: 41
+    mosaicPosition: {x: 89, y: 269}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: BoyA_Body
+    spriteName: BoyA_Body
+    isGroup: 0
+    parentIndex: 139
+    spriteID: 218fa68c46515d243955cd8fceac1b19
+    layerID: 33
+    mosaicPosition: {x: 4, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Boss
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: c538c9c91f86fd74296589b47ab830fb
+    layerID: 7
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 0
+  - name: Boss_head
+    spriteName: 
+    isGroup: 0
+    parentIndex: 148
+    spriteID: 13252f8529b2c014896673b549d88395
+    layerID: 5
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Boss_Left_Arm
+    spriteName: 
+    isGroup: 0
+    parentIndex: 148
+    spriteID: 2248b1510bb6fc64a9a0367d9e87c696
+    layerID: 23
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Boss_Left_Hand
+    spriteName: 
+    isGroup: 0
+    parentIndex: 148
+    spriteID: 03daec779d745ea4bae1bc9b2ad15405
+    layerID: 21
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Boss_Right_Arm
+    spriteName: 
+    isGroup: 0
+    parentIndex: 148
+    spriteID: e52c0a3564d7e0345ba041aac70d10da
+    layerID: 19
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Boss_Right_Hand
+    spriteName: 
+    isGroup: 0
+    parentIndex: 148
+    spriteID: e9bc42b8a66a5ac4ba9d440f7e3de031
+    layerID: 17
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Boss_body
+    spriteName: 
+    isGroup: 0
+    parentIndex: 148
+    spriteID: 9a740dcf4c58f164fb8c0cb64631bb39
+    layerID: 13
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Boss_Right_Foot
+    spriteName: 
+    isGroup: 0
+    parentIndex: 148
+    spriteID: 2020eef14df891649a9305d5f7f0c88d
+    layerID: 11
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Vector Smart Object
+    spriteName: 
+    isGroup: 0
+    parentIndex: 148
+    spriteID: 17fd4b070009ec8409eff286876795a0
+    layerID: 9
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Layer 1
+    spriteName: 
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 0d76458e6a9e422419deca0571fb9daa
+    layerID: 4
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 0
+  - name: Background
+    spriteName: 
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 26ce20cdc440d8e4eb3cab1ca62fa647
+    layerID: 1
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 0
+  sharedRigPSDLayers: []
+  pSDLayerImportSetting: []
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 0
+  spriteSizeExpandChanged: 0
+  generateGOHierarchy: 0
+  textureAssetName: 
+  prefabAssetName: 
+  spriteLibAssetName: 
+  skeletonAssetName: 
+  secondarySpriteTextures: []
