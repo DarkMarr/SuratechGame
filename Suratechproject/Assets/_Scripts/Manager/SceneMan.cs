@@ -24,8 +24,20 @@ public class SceneMan : Singleton<SceneMan>
         GoToScence(questionNo, answerNo);
     }
 
-    public static void GoToBreakingNews()
+    public static void GoToTitle()
     {
-        SceneManager.LoadScene("Land_A_Breaking_News");
+        SceneManager.LoadScene("title");
+    }
+    public static void GoToCharacterSelect()
+    {
+        SceneManager.LoadScene("CharacterSelect");
+    }
+    public static void GoToWorldMap()
+    {
+        SceneManager.LoadScene("Worldmap");
+    }
+    public static void GoToGameScore()
+    {
+        SceneManager.LoadScene("");
     }
 }

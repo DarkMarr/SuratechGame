@@ -25,4 +25,8 @@ public class ScGameManager : MonoBehaviour
     {
         SceneMan.GoToAnswer(MyQuestionNo, 2);
     }
+    public void DoGoCharacterSelect()
+    {
+        SceneMan.GoToCharacterSelect();
+    }
 }
