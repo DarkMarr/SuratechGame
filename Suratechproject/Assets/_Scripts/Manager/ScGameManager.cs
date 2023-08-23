@@ -19,11 +19,18 @@ public class ScGameManager : MonoBehaviour
 
     public void DoAnswer1()
     {
-        SceneMan.GoToAnswer(MyQuestionNo, 1);
+        int myChoiceNo = 1;
+        AnswerProcess(MyQuestionNo,myChoiceNo);
     }
     public void DoAnswer2()
     {
-        SceneMan.GoToAnswer(MyQuestionNo, 2);
+        int myChoiceNo = 2;
+        AnswerProcess(MyQuestionNo,myChoiceNo);
+    }
+    void AnswerProcess(int questionNo,int choiceNo)
+    {
+        GameDataService.Instance.ScoreProcess(questionNo, choiceNo);
+        SceneMan.GoToAnswer(questionNo, choiceNo);
     }
     public void DoGoCharacterSelect()
     {
