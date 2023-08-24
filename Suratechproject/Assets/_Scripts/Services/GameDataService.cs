@@ -14,6 +14,11 @@ public class GameDataService : Singleton<GameDataService>
 
     }
 
+    public void LogPlayerData()
+    {
+        Debug.LogFormat("Player money = {0},work = {1},honor={2},relationship={3}",myPlayer.money, myPlayer.work, myPlayer.honor, myPlayer.relationship);
+    }
+
     public void ClearPlayerData()
     {
         myPlayer.money = 50;

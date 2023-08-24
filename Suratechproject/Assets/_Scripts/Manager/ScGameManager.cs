@@ -30,6 +30,7 @@ public class ScGameManager : MonoBehaviour
     void AnswerProcess(int questionNo,int choiceNo)
     {
         GameDataService.Instance.ScoreProcess(questionNo, choiceNo);
+        GameDataService.Instance.LogPlayerData();
         SceneMan.GoToAnswer(questionNo, choiceNo);
     }
     public void DoGoCharacterSelect()
