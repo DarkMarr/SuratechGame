@@ -4,6 +4,10 @@ using UnityEngine;
 
 public class PlayerVO 
 {
+    public string playerName;
+    public int playerAge;
+    public int currentQuestion;
+
     public float money;
     public float work;
     public float honor;
