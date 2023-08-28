@@ -16,6 +16,7 @@ public class SceneMan : Singleton<SceneMan>
 
     public static void GoToQuestion(int questionNo)
     {
+        GameDataService.Instance.myPlayer.currentQuestion = questionNo;
         GoToScence(questionNo, 0);
     }
 

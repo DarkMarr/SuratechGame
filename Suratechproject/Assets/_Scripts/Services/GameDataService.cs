@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class GameDataService : Singleton<GameDataService>
 {
-    PlayerVO myPlayer = new PlayerVO();
+    public PlayerVO myPlayer = new PlayerVO();
     public GameDataService()
     {
         ClearPlayerData();
@@ -25,6 +25,7 @@ public class GameDataService : Singleton<GameDataService>
         myPlayer.work = 50;
         myPlayer.honor = 50;
         myPlayer.relationship = 50;
+        myPlayer.currentQuestion = 1;
     }
 
     public void ScoreProcess(int questionNo,int choiceNo)
