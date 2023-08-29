@@ -26,6 +26,7 @@ public class GameDataService : Singleton<GameDataService>
         myPlayer.honor = 50;
         myPlayer.relationship = 50;
         myPlayer.currentQuestion = 1;
+        myPlayer.playerAvatar = 0;
     }
 
     public void ScoreProcess(int questionNo,int choiceNo)

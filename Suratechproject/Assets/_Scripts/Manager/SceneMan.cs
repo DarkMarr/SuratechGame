@@ -33,6 +33,10 @@ public class SceneMan : Singleton<SceneMan>
     {
         SceneManager.LoadScene("CharacterSelect");
     }
+    public static void GoToInputPlayerData()
+    {
+        SceneManager.LoadScene("InputPlayerData");
+    }
     public static void GoToWorldMap()
     {
         SceneManager.LoadScene("Worldmap");

@@ -6,6 +6,7 @@ public class PlayerVO
 {
     public string playerName;
     public int playerAge;
+    public int playerAvatar;
     public int currentQuestion;
 
     public float money;
