@@ -21,5 +21,13 @@ public class ScCharacterSelect : MonoBehaviour
         GameDataService.Instance.myPlayer.playerAvatar = avatar;
         SceneMan.GoToInputPlayerData();
     }
+    public int myAvartarId;
+    private void OnMouseDown()
+    {
+        GameDataService.Instance.myPlayer.playerAvatar = myAvartarId;
+        SceneMan.GoToInputPlayerData();
+    }
+
+
 }
 
