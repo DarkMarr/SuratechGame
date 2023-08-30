@@ -21,6 +21,8 @@ public class GameDataService : Singleton<GameDataService>
 
     public void ClearPlayerData()
     {
+        myPlayer.playerName = "นิรนาม";
+        myPlayer.playerAge = 3;
         myPlayer.money = 50;
         myPlayer.work = 50;
         myPlayer.honor = 50;

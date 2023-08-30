@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class BtnNextScene : MonoBehaviour
 {
-    public enum NextSceneType { Worldmap,Answer};
+    int maxQuextion = 3;
+    public enum NextSceneType { Worldmap,Answer,GameScore};
     public NextSceneType myType;
     // Start is called before the first frame update
     void Start()
@@ -29,8 +30,19 @@ public class BtnNextScene : MonoBehaviour
         {
             Debug.Log(GameDataService.Instance.myPlayer.currentQuestion);
             GameDataService.Instance.myPlayer.currentQuestion++;
-            SceneMan.GoToWorldMap();
+            if (GameDataService.Instance.myPlayer.currentQuestion <= maxQuextion)
+            {
+                SceneMan.GoToWorldMap();
+            }
+            else
+            {
+                SceneMan.GoToGameScore();
+            }
 
+        }
+        else if (myType == NextSceneType.GameScore)
+        {
+            SceneMan.GoToTitle();
         }
     }
 }

@@ -43,6 +43,6 @@ public class SceneMan : Singleton<SceneMan>
     }
     public static void GoToGameScore()
     {
-        SceneManager.LoadScene("");
+        SceneManager.LoadScene("GameScore");
     }
 }
