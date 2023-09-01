@@ -18,11 +18,10 @@ public class GradientProgressbar : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        //RefreshColor();
     }
     void RefreshColor()
     {
-        Debug.Log(slide.value);
         float slideCall = slide.value / slide.maxValue;
         fillImage.color = colorBarGradient.Evaluate(slideCall);
     }
