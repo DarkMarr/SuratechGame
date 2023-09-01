@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using UnityEngine.UI;
 
 public class scGameScore : MonoBehaviour
 {
@@ -10,6 +11,10 @@ public class scGameScore : MonoBehaviour
     public TMP_Text txtWorkData;
     public TMP_Text txtHornorData;
     public TMP_Text txtRelationshipData;
+    [SerializeField] Slider sidMoney;
+    [SerializeField] Slider sidWork;
+    [SerializeField] Slider sidHonor;
+    [SerializeField] Slider sidRelation;
 
     // Start is called before the first frame update
     void Start()
@@ -31,5 +36,9 @@ public class scGameScore : MonoBehaviour
         txtWorkData.text = string.Format("{0}", player.work);
         txtHornorData.text = string.Format("{0}", player.honor);
         txtRelationshipData.text = string.Format("{0}", player.relationship);
+        sidMoney.value = player.money;
+        sidWork.value = player.work;
+        sidHonor.value = player.honor;
+        sidRelation.value = player.relationship;
     }
 }
