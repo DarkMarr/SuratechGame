@@ -30,19 +30,18 @@ public class BtnNextScene : MonoBehaviour
         {
             Debug.Log(GameDataService.Instance.myPlayer.currentQuestion);
             GameDataService.Instance.myPlayer.currentQuestion++;
+            SceneMan.GoToGameScore();
+        }
+        else if (myType == NextSceneType.GameScore)
+        {
             if (GameDataService.Instance.myPlayer.currentQuestion <= maxQuextion)
             {
                 SceneMan.GoToWorldMap();
             }
             else
             {
-                SceneMan.GoToGameScore();
+                SceneMan.GoToTitle();
             }
-
-        }
-        else if (myType == NextSceneType.GameScore)
-        {
-            SceneMan.GoToTitle();
         }
     }
 }
