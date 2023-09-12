@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class BtnNextScene : MonoBehaviour
 {
-    int maxQuextion = 3;
+    int maxQuextion = 20;
     public enum NextSceneType { Worldmap,Answer,GameScore};
     public NextSceneType myType;
     // Start is called before the first frame update
