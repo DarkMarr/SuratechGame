@@ -536,7 +536,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7645051031380111665, guid: 202488a49d6ad2a45a53cf7b142c7619, type: 3}
       propertyPath: m_text
-      value: "\u0E01\u0E25\u0E38\u0E48\u0E21\u0E40\u0E23\u0E32\u0E04\u0E19\u0E04\u0E23\u0E1A\u0E41\u0E25\u0E49\u0E27\u0E2D\u0E30"
+      value: "\u0E01\u0E25\u0E38\u0E48\u0E21\u0E40\u0E23\u0E32\u0E04\u0E19\u0E04\u0E23\u0E1A\u0E41\u0E25\u0E49\u0E27\u0E2D\u0E48\u0E30"
       objectReference: {fileID: 0}
     - target: {fileID: 7645051031380111665, guid: 202488a49d6ad2a45a53cf7b142c7619, type: 3}
       propertyPath: m_margin.w
@@ -1314,8 +1314,6 @@ PlayableDirector:
     value: {fileID: 493630704}
   - key: {fileID: 5520972230399842969, guid: ffdebb7cb1adcf548bf9723b98862c98, type: 2}
     value: {fileID: 1678539611}
-  - key: {fileID: -1536388042211001677, guid: ffdebb7cb1adcf548bf9723b98862c98, type: 2}
-    value: {fileID: 1678539611}
   - key: {fileID: 758214552955303443, guid: ffdebb7cb1adcf548bf9723b98862c98, type: 2}
     value: {fileID: 537372556}
   - key: {fileID: 8254341319170366095, guid: ffdebb7cb1adcf548bf9723b98862c98, type: 2}
@@ -1326,8 +1324,6 @@ PlayableDirector:
     value: {fileID: 1190743804}
   - key: {fileID: -3739594227612428719, guid: ffdebb7cb1adcf548bf9723b98862c98, type: 2}
     value: {fileID: 786658098}
-  - key: {fileID: -2105737159162297773, guid: ffdebb7cb1adcf548bf9723b98862c98, type: 2}
-    value: {fileID: 2109827209}
   - key: {fileID: 2708558944144743755, guid: ffdebb7cb1adcf548bf9723b98862c98, type: 2}
     value: {fileID: 1832563833}
   - key: {fileID: -4550807158244696816, guid: ffdebb7cb1adcf548bf9723b98862c98, type: 2}
@@ -1358,6 +1354,10 @@ PlayableDirector:
     value: {fileID: 560013565}
   - key: {fileID: 2563323671874580974, guid: ffdebb7cb1adcf548bf9723b98862c98, type: 2}
     value: {fileID: 1771498460}
+  - key: {fileID: -6313351132722839962, guid: ffdebb7cb1adcf548bf9723b98862c98, type: 2}
+    value: {fileID: 1678539608}
+  - key: {fileID: 4373905936251830073, guid: ffdebb7cb1adcf548bf9723b98862c98, type: 2}
+    value: {fileID: 0}
   m_ExposedReferences:
     m_References: []
 --- !u!1001 &1085593116
@@ -1853,7 +1853,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7645051031380111665, guid: 202488a49d6ad2a45a53cf7b142c7619, type: 3}
       propertyPath: m_text
-      value: "\u0E40\u0E23\u0E32\u0E02\u0E2D\u0E2D\u0E22\u0E39\u0E48\u0E14\u0E49\u0E27\u0E22\u0E44\u0E14\u0E49\u0E44\u0E2B\u0E21\u0E2D\u0E30"
+      value: "\u0E40\u0E23\u0E32\u0E02\u0E2D\u0E2D\u0E22\u0E39\u0E48\u0E14\u0E49\u0E27\u0E22\u0E44\u0E14\u0E49\u0E44\u0E2B\u0E21\u0E2D\u0E48\u0E30"
       objectReference: {fileID: 0}
     - target: {fileID: 7645051031380111665, guid: 202488a49d6ad2a45a53cf7b142c7619, type: 3}
       propertyPath: m_margin.w
@@ -2482,7 +2482,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7645051031380111665, guid: 202488a49d6ad2a45a53cf7b142c7619, type: 3}
       propertyPath: m_fontColor32.rgba
-      value: 3288334336
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8196883042362300980, guid: 202488a49d6ad2a45a53cf7b142c7619, type: 3}
       propertyPath: m_Name
