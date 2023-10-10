@@ -32,10 +32,10 @@ public class scGameScore : MonoBehaviour
     {
         PlayerVO player = GameDataService.Instance.myPlayer;
         txtPlayerData.text = string.Format("{0} อายุ {1} ปี", player.playerName, player.playerAge);
-        txtMoneyData.text = string.Format("{0}", player.money);
-        txtWorkData.text = string.Format("{0}", player.work);
-        txtHornorData.text = string.Format("{0}", player.honor);
-        txtRelationshipData.text = string.Format("{0}", player.relationship);
+        txtMoneyData.text = string.Format("{0}",Mathf.RoundToInt( player.money));
+        txtWorkData.text = string.Format("{0}", Mathf.RoundToInt(player.work));
+        txtHornorData.text = string.Format("{0}", Mathf.RoundToInt(player.honor));
+        txtRelationshipData.text = string.Format("{0}", Mathf.RoundToInt(player.relationship));
         sidMoney.value = player.money;
         sidWork.value = player.work;
         sidHonor.value = player.honor;
