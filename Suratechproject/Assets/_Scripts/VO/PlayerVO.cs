@@ -60,16 +60,16 @@ public class PlayerVO
         switch (scoreType)
         {
             case ScoreType.Money:
-                money -= moneyScore * effectScore;
+                money -= moneyScoreMin * effectScore;
                 break;
             case ScoreType.Work:
-                work -= workScore * effectScore;
+                work -= workScoreMin * effectScore;
                 break;
             case ScoreType.Honor:
-                honor -= hornorScore * effectScore;
+                honor -= hornorScoreMin * effectScore;
                 break;
             case ScoreType.Relationship:
-                relationship -= relationshipScore * effectScore;
+                relationship -= relationshipScoreMin * effectScore;
                 break;
 
         }
@@ -85,4 +85,9 @@ public class PlayerVO
     float workScore = 2.78f;
     float hornorScore = 2.17f;
     float relationshipScore = 2.78f;
+
+    float moneyScoreMin = 2.27f;
+    float workScoreMin = 1.72f;
+    float hornorScoreMin = 1.92f;
+    float relationshipScoreMin = 2.38f;
 }
