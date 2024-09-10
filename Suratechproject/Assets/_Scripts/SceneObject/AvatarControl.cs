@@ -6,6 +6,7 @@ public class AvatarControl : MonoBehaviour
 {
     public GameObject[] avatar;
     public GameObject[] avatar2;
+    public bool isBig = false;
     //public GameObject[] mainPlayer;
 
     //public GameObject[] heads;
