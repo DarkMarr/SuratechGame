@@ -35,8 +35,28 @@ public class AvatarControl : MonoBehaviour
         int avartarId = GameDataService.Instance.myPlayer.playerAvatar;
         for(int i=0;i< avatar.Length;i++)
         {
-            bool active = (i == avartarId);
-            avatar[i].SetActive(active);
+            if (isBig == false)
+            {
+                bool active = (i == avartarId);
+                avatar[i].SetActive(active);
+            }
+            else
+            {
+                avatar[i].SetActive(false);
+            }
+        }
+
+        for (int i = 0; i < avatar2.Length; i++)
+        {
+            if (isBig == true)
+            {
+                bool active = (i == avartarId);
+                avatar2[i].SetActive(active);
+            }
+            else
+            {
+                avatar2[i].SetActive(false);
+            }
         }
 
     }
