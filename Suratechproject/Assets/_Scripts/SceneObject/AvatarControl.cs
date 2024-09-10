@@ -5,6 +5,7 @@ using UnityEngine;
 public class AvatarControl : MonoBehaviour
 {
     public GameObject[] avatar;
+    public GameObject[] avatar2;
     //public GameObject[] mainPlayer;
 
     //public GameObject[] heads;
