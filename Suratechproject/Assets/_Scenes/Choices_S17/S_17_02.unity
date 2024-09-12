@@ -217,11 +217,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2822869610086228619, guid: 1a281d0382f0f024180493e893a93194, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 3.032866
+      value: -0.46
       objectReference: {fileID: 0}
     - target: {fileID: 2822869610086228619, guid: 1a281d0382f0f024180493e893a93194, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2.7485352
+      value: 2.93
       objectReference: {fileID: 0}
     - target: {fileID: 2822869610086228619, guid: 1a281d0382f0f024180493e893a93194, type: 3}
       propertyPath: m_LocalPosition.z
@@ -265,7 +265,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8271008299291450128, guid: 1a281d0382f0f024180493e893a93194, type: 3}
       propertyPath: m_fontColor32.rgba
-      value: 4278190080
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -390,6 +390,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4438025064425389414, guid: 671be1b757cb5604dbb46950a7305e42, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 5.5461
+      objectReference: {fileID: 0}
+    - target: {fileID: 4438025064425389414, guid: 671be1b757cb5604dbb46950a7305e42, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0.7383
+      objectReference: {fileID: 0}
     - target: {fileID: 5112261228382443051, guid: 671be1b757cb5604dbb46950a7305e42, type: 3}
       propertyPath: m_LocalPosition.x
       value: -3.3461363
@@ -435,8 +443,12 @@ PrefabInstance:
       value: week
       objectReference: {fileID: 0}
     - target: {fileID: 9216218927297586463, guid: 671be1b757cb5604dbb46950a7305e42, type: 3}
+      propertyPath: m_text
+      value: "\u0E2B\u0E25\u0E32\u0E22\u0E2D\u0E32\u0E17\u0E34\u0E15\u0E22\u0E4C\u0E15\u0E48\u0E2D\u0E21\u0E32"
+      objectReference: {fileID: 0}
+    - target: {fileID: 9216218927297586463, guid: 671be1b757cb5604dbb46950a7305e42, type: 3}
       propertyPath: m_fontColor32.rgba
-      value: 4279045427
+      value: 855347
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -709,7 +721,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8271008299291450128, guid: 1a281d0382f0f024180493e893a93194, type: 3}
       propertyPath: m_fontColor32.rgba
-      value: 4278190080
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -739,11 +751,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2822869610086228619, guid: 1a281d0382f0f024180493e893a93194, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.812866
+      value: 2.53
       objectReference: {fileID: 0}
     - target: {fileID: 2822869610086228619, guid: 1a281d0382f0f024180493e893a93194, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 3.0885353
+      value: 2.75
       objectReference: {fileID: 0}
     - target: {fileID: 2822869610086228619, guid: 1a281d0382f0f024180493e893a93194, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1091,6 +1103,8 @@ PlayableDirector:
     value: {fileID: 358829165}
   - key: {fileID: 6966086118426079855, guid: fab772d2861e5e247ac3eb5974f12406, type: 2}
     value: {fileID: 217927789}
+  - key: {fileID: 2491869571844714280, guid: fab772d2861e5e247ac3eb5974f12406, type: 2}
+    value: {fileID: 0}
   m_ExposedReferences:
     m_References: []
 --- !u!1001 &1047711232
@@ -1169,6 +1183,10 @@ PrefabInstance:
     - target: {fileID: 5975278114597473480, guid: 6d77b8d5cb8461947a44f28f65eec91f, type: 3}
       propertyPath: m_Name
       value: Square
+      objectReference: {fileID: 0}
+    - target: {fileID: 5975278114597473480, guid: 6d77b8d5cb8461947a44f28f65eec91f, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8661517922605212942, guid: 6d77b8d5cb8461947a44f28f65eec91f, type: 3}
       propertyPath: m_LocalPosition.x
