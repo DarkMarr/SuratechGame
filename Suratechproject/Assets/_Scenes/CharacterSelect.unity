@@ -38,7 +38,6 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1014,6 +1013,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 491dacfe40faf0340aa6562c9b6c1947, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isSelectAvater: 1
   myAvartarId: 3
 --- !u!65 &872670852
 BoxCollider:
@@ -1276,12 +1276,12 @@ MonoBehaviour:
   m_RequiresColorTexture: 0
   m_Version: 2
   m_TaaSettings:
-    quality: 3
-    frameInfluence: 0.1
-    jitterScale: 1
-    mipBias: 0
-    varianceClampScale: 0.9
-    contrastAdaptiveSharpening: 0
+    m_Quality: 3
+    m_FrameInfluence: 0.1
+    m_JitterScale: 1
+    m_MipBias: 0
+    m_VarianceClampScale: 0.9
+    m_ContrastAdaptiveSharpening: 0
 --- !u!81 &961739751
 AudioListener:
   m_ObjectHideFlags: 0
@@ -2130,6 +2130,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 491dacfe40faf0340aa6562c9b6c1947, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isSelectAvater: 1
   myAvartarId: 0
 --- !u!1 &1548552267
 GameObject:
@@ -2262,6 +2263,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 491dacfe40faf0340aa6562c9b6c1947, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isSelectAvater: 1
   myAvartarId: 1
 --- !u!65 &1630561887
 BoxCollider:
@@ -2878,6 +2880,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 491dacfe40faf0340aa6562c9b6c1947, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isSelectAvater: 1
   myAvartarId: 2
 --- !u!65 &1934735634
 BoxCollider:
@@ -3147,6 +3150,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 491dacfe40faf0340aa6562c9b6c1947, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isSelectAvater: 0
   myAvartarId: 0
 --- !u!4 &2144456915
 Transform:

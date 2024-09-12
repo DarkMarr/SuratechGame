@@ -45,20 +45,24 @@ public class AvatarControl : MonoBehaviour
                 avatar[i].SetActive(false);
             }
         }
-
-        for (int i = 0; i < avatar2.Length; i++)
+        if (avatar2 != null)
         {
-            if (isBig == true)
+            for (int i = 0; i < avatar2.Length; i++)
             {
-                bool active = (i == avartarId);
-                avatar2[i].SetActive(active);
-            }
-            else
-            {
-                avatar2[i].SetActive(false);
+                if (avatar2[i] != null)
+                {
+                    if (isBig == true)
+                    {
+                        bool active = (i == avartarId);
+                        avatar2[i].SetActive(active);
+                    }
+                    else
+                    {
+                        avatar2[i].SetActive(false);
+                    }
+                }
             }
         }
-
     }
     //public void ShowAvartar()
     //{

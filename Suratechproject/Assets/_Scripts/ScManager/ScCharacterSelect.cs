@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class ScCharacterSelect : MonoBehaviour
 {
+    [SerializeField] bool isSelectAvater = false;
     // Start is called before the first frame update
     void Start()
     {
@@ -18,14 +19,19 @@ public class ScCharacterSelect : MonoBehaviour
 
     public void DoChoose(int avatar)
     {
+        Debug.LogFormat("DoChoose {0}",avatar);
         GameDataService.Instance.myPlayer.playerAvatar = avatar;
         SceneMan.GoToInputPlayerData();
     }
     public int myAvartarId;
     private void OnMouseDown()
     {
-        GameDataService.Instance.myPlayer.playerAvatar = myAvartarId;
-        SceneMan.GoToInputPlayerData();
+        if (isSelectAvater)
+        {
+            Debug.LogFormat("ScCharacterSelect >> OnMouseDown ");
+            GameDataService.Instance.myPlayer.playerAvatar = myAvartarId;
+            SceneMan.GoToInputPlayerData();
+        }
     }
 
 
