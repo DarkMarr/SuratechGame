@@ -172,7 +172,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7693049652751938181, guid: 709c3f683e40782408630286635c1535, type: 3}
       propertyPath: m_fontColor32.rgba
-      value: 0
+      value: 16777216
       objectReference: {fileID: 0}
     - target: {fileID: 8399269871736983347, guid: 709c3f683e40782408630286635c1535, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1138,6 +1138,8 @@ PlayableDirector:
     value: {fileID: 119763351}
   - key: {fileID: -2699234153903464401, guid: 5f885ff7af0c9fb4b98f9de916daf6cc, type: 2}
     value: {fileID: 519420033}
+  - key: {fileID: 8346764495813867395, guid: 5f885ff7af0c9fb4b98f9de916daf6cc, type: 2}
+    value: {fileID: 0}
   m_ExposedReferences:
     m_References: []
 --- !u!1001 &863192750
@@ -2160,8 +2162,8 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1124347041244859829, guid: e5aeb5842e5ab0a4ea02ea3015a6ad87, type: 3}
       propertyPath: m_text
-      value: "2.\u201C\u0E44\u0E21\u0E48\u0E40\u0E2D\u0E32\u0E2B\u0E23\u0E2D\u0E01
-        \u0E40\u0E23\u0E32\u0E44\u0E21\u0E48\r\n \u0E2A\u0E19\u0E43\u0E08\u201D\r"
+      value: "2.\u0E01\u0E47\u0E2D\u0E22\u0E32\u0E01\u0E44\u0E14\u0E49\u0E40\u0E07\u0E34\u0E19\u0E19\u0E30
+        \u0E41\u0E15\u0E48\u0E1E\u0E19\u0E31\u0E19\u0E2D\u0E2D\u0E19\u0E44\u0E25\u0E19\u0E4C\u0E19\u0E48\u0E32\u0E08\u0E30\u0E40\u0E2A\u0E35\u0E48\u0E22\u0E07\u0E42\u0E14\u0E19\u0E42\u0E01\u0E07\u0E2D\u0E30"
       objectReference: {fileID: 0}
     - target: {fileID: 1250405878743665166, guid: e5aeb5842e5ab0a4ea02ea3015a6ad87, type: 3}
       propertyPath: m_Colors.m_HighlightedColor.b
@@ -2333,8 +2335,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6016741349045967360, guid: e5aeb5842e5ab0a4ea02ea3015a6ad87, type: 3}
       propertyPath: m_text
-      value: "1.\u0E40\u0E02\u0E49\u0E32\u0E23\u0E48\u0E27\u0E21\u0E14\u0E49\u0E27\u0E22\u0E04\u0E27\u0E32\u0E21\r\n\u0E01\u0E23\u0E30\u0E15\u0E37\u0E2D\u0E23\u0E37\u0E2D\u0E23\u0E49\u0E19
-        \u201C\u0E40\u0E2D\u0E32\u0E14\u0E49\u0E27\u0E22\u0E14\u0E34\u201D\r\n"
+      value: "1.\u0E40\u0E2D\u0E32\u0E14\u0E34 \u0E2A\u0E2D\u0E19\u0E40\u0E25\u0E48\u0E19\u0E2B\u0E19\u0E48\u0E2D\u0E22"
       objectReference: {fileID: 0}
     - target: {fileID: 6860589682493442589, guid: e5aeb5842e5ab0a4ea02ea3015a6ad87, type: 3}
       propertyPath: m_text
@@ -2528,11 +2529,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8552231309443824233, guid: 5d24c5a4628349948bc9f2028b930306, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -5.6
+      value: -3.14
       objectReference: {fileID: 0}
     - target: {fileID: 8552231309443824233, guid: 5d24c5a4628349948bc9f2028b930306, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.43
+      value: -2.23
       objectReference: {fileID: 0}
     - target: {fileID: 8552231309443824233, guid: 5d24c5a4628349948bc9f2028b930306, type: 3}
       propertyPath: m_LocalPosition.z
