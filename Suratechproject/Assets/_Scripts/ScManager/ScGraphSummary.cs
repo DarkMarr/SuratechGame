@@ -39,7 +39,10 @@ public class ScGraphSummary : MonoBehaviour
         float maxScore = 50f;
         float maxPosition = 175f;
         float result = (score/maxScore)*maxPosition;
-
+        if(result<0)
+        {
+            result = 0;
+        }
         return result;
     }
     public void GenerateGraph()
