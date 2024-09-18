@@ -118,6 +118,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 491dacfe40faf0340aa6562c9b6c1947, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isSelectAvater: 0
   myAvartarId: 3
 --- !u!1 &334980184933412394
 GameObject:
@@ -237,6 +238,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 491dacfe40faf0340aa6562c9b6c1947, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isSelectAvater: 0
   myAvartarId: 1
 --- !u!1 &5347567006035171397
 GameObject:
@@ -412,6 +414,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 491dacfe40faf0340aa6562c9b6c1947, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isSelectAvater: 0
   myAvartarId: 0
 --- !u!1 &8698369478030445310
 GameObject:
@@ -531,6 +534,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 491dacfe40faf0340aa6562c9b6c1947, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isSelectAvater: 0
   myAvartarId: 2
 --- !u!1001 &760128014102859678
 PrefabInstance:
@@ -706,11 +710,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -7552582706839291426, guid: 9e1b489f23ddaeb4dab0b20987d8ac8c, type: 3}
       propertyPath: m_LocalScale.x
-      value: 1
+      value: 0.47
       objectReference: {fileID: 0}
     - target: {fileID: -7552582706839291426, guid: 9e1b489f23ddaeb4dab0b20987d8ac8c, type: 3}
       propertyPath: m_LocalScale.y
-      value: 1
+      value: 0.47
+      objectReference: {fileID: 0}
+    - target: {fileID: -7552582706839291426, guid: 9e1b489f23ddaeb4dab0b20987d8ac8c, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.47
       objectReference: {fileID: 0}
     - target: {fileID: -7552582706839291426, guid: 9e1b489f23ddaeb4dab0b20987d8ac8c, type: 3}
       propertyPath: m_LocalPosition.x
