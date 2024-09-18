@@ -9,6 +9,7 @@ public class ScGraphSummary : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        SetDotPosition();
         GenerateGraph();
     }
 
@@ -18,7 +19,29 @@ public class ScGraphSummary : MonoBehaviour
         
     }
 
-   
+    //0-175
+    //0-50
+    void SetDotPosition()
+    {
+        //Relation,Money,Glory,Work
+        PlayerVO player = GameDataService.Instance.myPlayer;
+        float money = player.money;
+        float work = player.work;
+        float honor = player.honor;
+        float relate = player.relationship;
+        dots[0].transform.localPosition = new Vector3(0,ConvertScoreToPixel(relate),0);
+        dots[1].transform.localPosition = new Vector3(ConvertScoreToPixel(money), 0,  0);
+        dots[2].transform.localPosition = new Vector3(0,-1f* ConvertScoreToPixel(honor), 0);
+        dots[3].transform.localPosition = new Vector3(-1f*ConvertScoreToPixel(work), 0,  0);
+    }
+    float ConvertScoreToPixel(float score)
+    {
+        float maxScore = 50f;
+        float maxPosition = 175f;
+        float result = (score/maxScore)*maxPosition;
+
+        return result;
+    }
     public void GenerateGraph()
     {
         Vector3 start = new Vector3(0, 0, 0);
