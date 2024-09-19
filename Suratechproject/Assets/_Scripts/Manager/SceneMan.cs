@@ -45,4 +45,9 @@ public class SceneMan : Singleton<SceneMan>
     {
         SceneManager.LoadScene("GameScore");
     }
+    public static void GoToGraphSummary()
+    {
+        SceneManager.LoadScene("GraphSummary");
+    }
+
 }
