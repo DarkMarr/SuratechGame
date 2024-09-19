@@ -404,10 +404,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6947309953391693396, guid: 74dcabe1552544b44aca6ec8afcb184a, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0.015038894
-      objectReference: {fileID: 0}
     - target: {fileID: 663120943836030044, guid: ba15b00501f1d7645ba8b25325f0e2a9, type: 3}
       propertyPath: m_LocalRotation.w
       value: 0.9605651
@@ -475,6 +471,10 @@ PrefabInstance:
     - target: {fileID: 7485689141450616232, guid: 852836d655b7c794c9bad8f7849ac95a, type: 3}
       propertyPath: m_LocalRotation.z
       value: 0.05948012
+      objectReference: {fileID: 0}
+    - target: {fileID: 6947309953391693396, guid: 74dcabe1552544b44aca6ec8afcb184a, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.015038894
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -902,6 +902,18 @@ PrefabInstance:
     - target: {fileID: -8653719598885068355, guid: a6d21505ace4a8c47ad52a6cbd9d02ad, type: 3}
       propertyPath: m_Name
       value: Student_boy03 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: -7552582706839291426, guid: a6d21505ace4a8c47ad52a6cbd9d02ad, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.33
+      objectReference: {fileID: 0}
+    - target: {fileID: -7552582706839291426, guid: a6d21505ace4a8c47ad52a6cbd9d02ad, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.33
+      objectReference: {fileID: 0}
+    - target: {fileID: -7552582706839291426, guid: a6d21505ace4a8c47ad52a6cbd9d02ad, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -7552582706839291426, guid: a6d21505ace4a8c47ad52a6cbd9d02ad, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1451,7 +1463,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7330684340789469461, guid: 4b2e3dbe2397a574780c8e9a53b12873, type: 3}
       propertyPath: m_fontColor32.rgba
-      value: 0
+      value: 4278190080
       objectReference: {fileID: 0}
     - target: {fileID: 9031562429480900414, guid: 4b2e3dbe2397a574780c8e9a53b12873, type: 3}
       propertyPath: m_Name
@@ -1651,9 +1663,21 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1529513460}
     m_Modifications:
+    - target: {fileID: 5302046186954668096, guid: 63e3a01b804764a48bc84e181a737abc, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.3
+      objectReference: {fileID: 0}
     - target: {fileID: 5347567006035171397, guid: 63e3a01b804764a48bc84e181a737abc, type: 3}
       propertyPath: m_Name
       value: PlayerAvatar
+      objectReference: {fileID: 0}
+    - target: {fileID: 6144016959683594893, guid: 63e3a01b804764a48bc84e181a737abc, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6144016959683594893, guid: 63e3a01b804764a48bc84e181a737abc, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6144016959683594893, guid: 63e3a01b804764a48bc84e181a737abc, type: 3}
       propertyPath: m_LocalPosition.x
