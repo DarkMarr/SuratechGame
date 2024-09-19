@@ -6,6 +6,8 @@ public class ScInputPlayerData : MonoBehaviour
 {
     public TMP_InputField infName;
     public TMP_InputField infAge;
+    public TMP_InputField infCenter;
+    public TMP_InputField infTeacher;
     // Start is called before the first frame update
     void Start()
     {
@@ -22,6 +24,8 @@ public class ScInputPlayerData : MonoBehaviour
     {
         GameDataService.Instance.myPlayer.playerName = infName.text;
         GameDataService.Instance.myPlayer.playerAge = ToInt32OrDefault( infAge.text);
+        GameDataService.Instance.myPlayer.playerCenter = infCenter.text;
+        GameDataService.Instance.myPlayer.playerTeacher = infTeacher.text;
         GameDataService.Instance.myPlayer.currentQuestion = 1;
         SceneMan.GoToWorldMap();
     }
