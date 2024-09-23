@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using System.IO;
 public class ScGraphSummary : MonoBehaviour
 {
     [SerializeField] GameObject[] dots;
@@ -11,6 +11,7 @@ public class ScGraphSummary : MonoBehaviour
     {
         SetDotPosition();
         GenerateGraph();
+        SaveData();
     }
 
     // Update is called once per frame
@@ -71,5 +72,27 @@ public class ScGraphSummary : MonoBehaviour
         Vector3 dif = end - start;
         rec.sizeDelta = new Vector3(dif.magnitude, 5);
         rec.rotation = Quaternion.Euler(new Vector3(0, 0, 180 * Mathf.Atan(dif.y / dif.x) / Mathf.PI));
+    }
+
+    void SaveData()
+    {
+        string filenName = string.Format("{0}.csv",System.DateTime.Now.ToString("yyyyMMdd"));
+        string path = Application.dataPath + "/"+ filenName;
+        Debug.Log("SaveData >> " + path);
+        using(StreamWriter sw = new StreamWriter(path,true,System.Text.Encoding.UTF8))
+        {
+            PlayerVO player = GameDataService.Instance.myPlayer;
+            string data = string.Format("\"{0}\",\"{1}\",\"{2}\",\"{3}\",\"{4}\",\"{5}\",\"{6}\",\"{7}\",\"{8}\"",
+                player.playerName,
+                player.playerAge,
+                player.playerCenter,
+                player.playerTeacher,
+                player.money, 
+                player.work,
+                player.honor,
+                player.relationship,
+                System.DateTime.Now.ToShortTimeString());
+            sw.WriteLine(data);
+        }
     }
 }
