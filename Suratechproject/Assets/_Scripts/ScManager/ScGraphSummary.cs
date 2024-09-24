@@ -37,7 +37,8 @@ public class ScGraphSummary : MonoBehaviour
     }
     float ConvertScoreToPixel(float score)
     {
-        float maxScore = 50f;
+        //Base Score 50 + MaxScore 50
+        float maxScore = 100f;
         float maxPosition = 175f;
         float result = (score/maxScore)*maxPosition;
         if(result<0)

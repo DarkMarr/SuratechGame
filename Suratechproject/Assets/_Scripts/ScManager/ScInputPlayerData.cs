@@ -22,11 +22,14 @@ public class ScInputPlayerData : MonoBehaviour
 
     public void DoSaveData()
     {
+        int playerAvater = GameDataService.Instance.myPlayer.playerAvatar;
+        GameDataService.Instance.ClearPlayerData();
         GameDataService.Instance.myPlayer.playerName = infName.text;
         GameDataService.Instance.myPlayer.playerAge = ToInt32OrDefault( infAge.text);
         GameDataService.Instance.myPlayer.playerCenter = infCenter.text;
         GameDataService.Instance.myPlayer.playerTeacher = infTeacher.text;
         GameDataService.Instance.myPlayer.currentQuestion = 1;
+        GameDataService.Instance.myPlayer.playerAvatar = playerAvater;
         SceneMan.GoToWorldMap();
     }
 
