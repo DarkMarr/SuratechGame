@@ -44,6 +44,11 @@ public class ScGraphSummary : MonoBehaviour
         {
             result = 0;
         }
+        else if (result> maxScore)
+        {
+            result  = maxScore;
+        }
+        
         return result;
     }
     public void GenerateGraph()
