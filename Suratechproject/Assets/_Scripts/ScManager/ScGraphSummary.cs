@@ -1,4 +1,4 @@
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using System.IO;
@@ -82,22 +82,116 @@ public class ScGraphSummary : MonoBehaviour
 
     void SaveData()
     {
-        string filenName = string.Format("{0}.csv",System.DateTime.Now.ToString("yyyyMMdd"));
+        string filenName = string.Format("{0}.csv",System.DateTime.Now.ToString("yyyy"));
         string path = Application.dataPath + "/"+ filenName;
         Debug.Log("SaveData >> " + path);
-        using(StreamWriter sw = new StreamWriter(path,true,System.Text.Encoding.UTF8))
+        //Header
+        if (!File.Exists(path))
+        {
+            using (StreamWriter sw = new StreamWriter(path, true, System.Text.Encoding.UTF8))
+            {
+                string data = string.Format("\"{0}\",\"{1}\",\"{2}\",\"{3}\",\"{4}\",\"{5}\",\"{6}\",\"{7}\",\"{8}\",\"{9}\","+
+                    "\"{10}\",\"{11}\",\"{12}\",\"{13}\",\"{14}\",\"{15}\",\"{16}\",\"{17}\",\"{18}\",\"{19}\","+ 
+                    "\"{20}\",\"{21}\",\"{22}\",\"{23}\",\"{24}\",\"{25}\",\"{26}\",\"{27}\",\"{28}\",\"{29}\","+
+                    "\"{30}\",\"{31}\"",
+                    "ว/ด/ป",
+                    "เวลา",
+                    "ชื่อ",
+                    "อายุ",
+                    "เพศ",
+                    "ตัวละคร",
+                    "ครู",
+                    "ศูนย์",
+                    "SPS01",
+                    "MSC01",
+                    "MSC02",
+                    "EMP01",
+                    "MSC03",
+                    "MSC04",
+                    "EMP02",
+                    "EMP03",
+                    "SPS02",
+                    "SPS03",
+                    "EMP04",
+                    "EMP05",
+                    "MSC05",
+                    "MSC06",
+                    "MSC07",
+                    "EMP06",
+                    "EMP07",
+                    "SPS04",
+                    "SPS05",
+                    "SPS06",
+                    "ด้าน1",
+                    "ด้าน2",
+                    "ด้าน3",
+                    "ด้าน4");
+                sw.WriteLine(data);
+            }
+        }
+        using (StreamWriter sw = new StreamWriter(path,true,System.Text.Encoding.UTF8))
         {
             PlayerVO player = GameDataService.Instance.myPlayer;
-            string data = string.Format("\"{0}\",\"{1}\",\"{2}\",\"{3}\",\"{4}\",\"{5}\",\"{6}\",\"{7}\",\"{8}\"",
+            int[] answer = GameDataService.Instance.answer;
+            string gender = "";
+            string charecter = "";
+            switch(player.playerAvatar)
+            {
+                case 1:
+                    gender = "ช";
+                    charecter = "M1";
+                    break;
+                case 2:
+                    gender = "ช";
+                    charecter = "M2";
+                    break;
+                case 3:
+                    gender = "ญ";
+                    charecter = "F1";
+                    break;
+                case 4:
+                    gender = "ญ";
+                    charecter = "F2";
+                    break;
+
+            }
+            string data = string.Format("\"{0}\",\"{1}\",\"{2}\",\"{3}\",\"{4}\",\"{5}\",\"{6}\",\"{7}\",\"{8}\",\"{9}\"," +
+                    "\"{10}\",\"{11}\",\"{12}\",\"{13}\",\"{14}\",\"{15}\",\"{16}\",\"{17}\",\"{18}\",\"{19}\"," +
+                    "\"{20}\",\"{21}\",\"{22}\",\"{23}\",\"{24}\",\"{25}\",\"{26}\",\"{27}\",\"{28}\",\"{29}\"," +
+                    "\"{30}\",\"{31}\"",
+                System.DateTime.Now.ToString("dd/MM/yyyy"),
+                System.DateTime.Now.ToShortTimeString(),
                 player.playerName,
                 player.playerAge,
-                player.playerCenter,
+                gender,
+                charecter,
                 player.playerTeacher,
+                player.playerCenter,
+                answer[0],
+                answer[1],
+                answer[2],
+                answer[3],
+                answer[4],
+                answer[5],
+                answer[6],
+                answer[7],
+                answer[8],
+                answer[9],
+                answer[10],
+                answer[11],
+                answer[12],
+                answer[13],
+                answer[14],
+                answer[15],
+                answer[16],
+                answer[17],
+                answer[18],
+                answer[19],
                 player.money, 
                 player.work,
                 player.honor,
-                player.relationship,
-                System.DateTime.Now.ToShortTimeString());
+                player.relationship
+                );
             sw.WriteLine(data);
         }
     }

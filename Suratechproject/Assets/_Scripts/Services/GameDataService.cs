@@ -5,6 +5,7 @@ using UnityEngine;
 public class GameDataService : Singleton<GameDataService>
 {
     public PlayerVO myPlayer = new PlayerVO();
+    public int[] answer = new int[20];
     public GameDataService()
     {
         ClearPlayerData();
@@ -31,10 +32,20 @@ public class GameDataService : Singleton<GameDataService>
         myPlayer.relationship = 50;
         myPlayer.currentQuestion = 1;
         myPlayer.playerAvatar = 0;
+        ClearAnswer();
+    }
+
+    void ClearAnswer()
+    {
+        for (int i = 0; i < answer.Length; i++)
+        {
+            answer[i] = 0;
+        }
     }
 
     public void ScoreProcess(int questionNo,int choiceNo)
     {
+        answer[questionNo-1] = choiceNo;
         switch (questionNo)
         {
             case 1:
