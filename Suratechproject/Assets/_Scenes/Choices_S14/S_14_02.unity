@@ -158,7 +158,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7693049652751938181, guid: 709c3f683e40782408630286635c1535, type: 3}
       propertyPath: m_fontColor32.rgba
-      value: 4278190080
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8399269871736983347, guid: 709c3f683e40782408630286635c1535, type: 3}
       propertyPath: m_LocalPosition.x
@@ -660,6 +660,8 @@ PlayableDirector:
     value: {fileID: 0}
   - key: {fileID: 4733643655685126079, guid: f31920ffcef065d4295419b51f0753aa, type: 2}
     value: {fileID: 0}
+  - key: {fileID: -623823329937017876, guid: f31920ffcef065d4295419b51f0753aa, type: 2}
+    value: {fileID: 974923880}
   m_ExposedReferences:
     m_References: []
 --- !u!4 &573774731
@@ -993,6 +995,11 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &974923880 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5347567006035171397, guid: 63e3a01b804764a48bc84e181a737abc, type: 3}
+  m_PrefabInstance: {fileID: 1145851659}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1069216453
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1103,6 +1110,14 @@ PrefabInstance:
       value: PlayerAvatar
       objectReference: {fileID: 0}
     - target: {fileID: 6144016959683594893, guid: 63e3a01b804764a48bc84e181a737abc, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6144016959683594893, guid: 63e3a01b804764a48bc84e181a737abc, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6144016959683594893, guid: 63e3a01b804764a48bc84e181a737abc, type: 3}
       propertyPath: m_LocalPosition.x
       value: -4.072567
       objectReference: {fileID: 0}
@@ -1182,7 +1197,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7693049652751938181, guid: 709c3f683e40782408630286635c1535, type: 3}
       propertyPath: m_fontColor32.rgba
-      value: 4278190080
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8399269871736983347, guid: 709c3f683e40782408630286635c1535, type: 3}
       propertyPath: m_LocalPosition.x

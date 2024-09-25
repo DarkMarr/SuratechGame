@@ -359,11 +359,6 @@ Animator:
   m_CorrespondingSourceObject: {fileID: 3812798115138776169, guid: 6d77b8d5cb8461947a44f28f65eec91f, type: 3}
   m_PrefabInstance: {fileID: 1941747378}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &434293465 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 5789358721484769540, guid: c0cbd0e2d1c3fd94e84341f81aab5013, type: 3}
-  m_PrefabInstance: {fileID: 2607832691303980990}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -762,7 +757,7 @@ PlayableDirector:
   - key: {fileID: 2915225207973157040, guid: b380da2c7ddfc2544b61db0a4c5ce272, type: 2}
     value: {fileID: 1188760444}
   - key: {fileID: -9072761867530447502, guid: b380da2c7ddfc2544b61db0a4c5ce272, type: 2}
-    value: {fileID: 434293465}
+    value: {fileID: 0}
   - key: {fileID: 4816475354595324837, guid: b380da2c7ddfc2544b61db0a4c5ce272, type: 2}
     value: {fileID: 1065937099}
   m_ExposedReferences:
@@ -1720,6 +1715,14 @@ PrefabInstance:
     - target: {fileID: 2767824865384291748, guid: a4cc0c4f8ad364a46b54d2b6dc4d2db0, type: 3}
       propertyPath: m_Name
       value: Teen001
+      objectReference: {fileID: 0}
+    - target: {fileID: 3936519737436145095, guid: a4cc0c4f8ad364a46b54d2b6dc4d2db0, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.85
+      objectReference: {fileID: 0}
+    - target: {fileID: 3936519737436145095, guid: a4cc0c4f8ad364a46b54d2b6dc4d2db0, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.85
       objectReference: {fileID: 0}
     - target: {fileID: 3936519737436145095, guid: a4cc0c4f8ad364a46b54d2b6dc4d2db0, type: 3}
       propertyPath: m_LocalPosition.x
