@@ -29,6 +29,10 @@ public class SceneMan : Singleton<SceneMan>
     {
         SceneManager.LoadScene("title");
     }
+    public static void GoToIntro()
+    {
+        SceneManager.LoadScene("Intro");
+    }
     public static void GoToCharacterSelect()
     {
         SceneManager.LoadScene("CharacterSelect");
@@ -36,6 +40,10 @@ public class SceneMan : Singleton<SceneMan>
     public static void GoToInputPlayerData()
     {
         SceneManager.LoadScene("InputPlayerData");
+    }
+    public static void GoToSelectTarget()
+    {
+        SceneManager.LoadScene("SelectTarget");
     }
     public static void GoToWorldMap()
     {
@@ -48,6 +56,10 @@ public class SceneMan : Singleton<SceneMan>
     public static void GoToGraphSummary()
     {
         SceneManager.LoadScene("GraphSummary");
+    }
+    public static void GoToOutro()
+    {
+        SceneManager.LoadScene("Outro");
     }
 
 }

@@ -30,7 +30,8 @@ public class ScInputPlayerData : MonoBehaviour
         GameDataService.Instance.myPlayer.playerTeacher = infTeacher.text;
         GameDataService.Instance.myPlayer.currentQuestion = 1;
         GameDataService.Instance.myPlayer.playerAvatar = playerAvater;
-        SceneMan.GoToWorldMap();
+        SceneMan.GoToSelectTarget();
+        //SceneMan.GoToWorldMap();
     }
 
     public int ToInt32OrDefault(string value, int defaultValue = 0)

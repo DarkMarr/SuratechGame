@@ -37,4 +37,8 @@ public class ScGameManager : MonoBehaviour
     {
         SceneMan.GoToCharacterSelect();
     }
+    public void DoGoIntro()
+    {
+        SceneMan.GoToIntro();
+    }
 }
