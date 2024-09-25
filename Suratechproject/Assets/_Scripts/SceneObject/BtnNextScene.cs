@@ -51,5 +51,13 @@ public class BtnNextScene : MonoBehaviour
         {
             SceneMan.GoToTitle();
         }
+        else if (myType == NextSceneType.Intro)
+        {
+            SceneMan.GoToCharacterSelect();
+        }
+        else if (myType == NextSceneType.SelectTarget)
+        {
+            SceneMan.GoToWorldMap();
+        }
     }
 }
