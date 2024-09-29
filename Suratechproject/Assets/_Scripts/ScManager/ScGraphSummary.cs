@@ -2,13 +2,19 @@
 using System.Collections.Generic;
 using UnityEngine;
 using System.IO;
+using TMPro;
 public class ScGraphSummary : MonoBehaviour
 {
     [SerializeField] GameObject[] dots;
     [SerializeField] GameObject[] lines;
+    [SerializeField] TMP_Text txtName;
+    [SerializeField] TMP_Text txtAge;
+    [SerializeField] TMP_Text txtCenter;
+    [SerializeField] TMP_Text txtTeacher;
     // Start is called before the first frame update
     void Start()
     {
+        SetTextData();
         SetDotPosition();
         GenerateGraph();
         SaveData();
@@ -19,7 +25,14 @@ public class ScGraphSummary : MonoBehaviour
     {
         
     }
-
+    void SetTextData()
+    {
+        PlayerVO player = GameDataService.Instance.myPlayer;
+        txtName.text = player.playerName;
+        txtAge.text = player.playerAge.ToString()+" ปี";
+        txtCenter.text = player.playerCenter;
+        txtTeacher.text = player.playerTeacher;
+    }
     //0-175
     //0-50
     void SetDotPosition()
