@@ -393,6 +393,17 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ba47645a03642ae4a9305a073ea26bfe, type: 3}
+--- !u!114 &304083827 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 9176774738747329775, guid: 7f89f85fe7e9beb4798cf9f1924f88f0, type: 3}
+  m_PrefabInstance: {fileID: 1210730343}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &336768859
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1597,6 +1608,30 @@ PrefabInstance:
       propertyPath: myType
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 5676633327017598097, guid: 7f89f85fe7e9beb4798cf9f1924f88f0, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -69.43378
+      objectReference: {fileID: 0}
+    - target: {fileID: 5676633327017598097, guid: 7f89f85fe7e9beb4798cf9f1924f88f0, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 6863476589896865987, guid: 7f89f85fe7e9beb4798cf9f1924f88f0, type: 3}
+      propertyPath: m_Transition
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6863476589896865987, guid: 7f89f85fe7e9beb4798cf9f1924f88f0, type: 3}
+      propertyPath: m_TargetGraphic
+      value: 
+      objectReference: {fileID: 304083827}
+    - target: {fileID: 6863476589896865987, guid: 7f89f85fe7e9beb4798cf9f1924f88f0, type: 3}
+      propertyPath: m_SpriteState.m_SelectedSprite
+      value: 
+      objectReference: {fileID: 21300000, guid: cc61ef8b52cbcd04e964b2bc80f586a0, type: 3}
+    - target: {fileID: 6863476589896865987, guid: 7f89f85fe7e9beb4798cf9f1924f88f0, type: 3}
+      propertyPath: m_SpriteState.m_HighlightedSprite
+      value: 
+      objectReference: {fileID: 21300000, guid: cc61ef8b52cbcd04e964b2bc80f586a0, type: 3}
     - target: {fileID: 8722222452696823508, guid: 7f89f85fe7e9beb4798cf9f1924f88f0, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -2797,7 +2832,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 11b3347787995bb4bb189f731dbb6825, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.5
+  m_Volume: 0.1
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -2841,7 +2876,7 @@ AudioSource:
     m_Curve:
     - serializedVersion: 3
       time: 0
-      value: 0
+      value: 0.5
       inSlope: 0
       outSlope: 0
       tangentMode: 0

@@ -2265,7 +2265,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 4a4a8a78243eb1144a88f8950d1cd2df, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.3
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -2309,7 +2309,7 @@ AudioSource:
     m_Curve:
     - serializedVersion: 3
       time: 0
-      value: 0
+      value: 0.5
       inSlope: 0
       outSlope: 0
       tangentMode: 0
@@ -2495,15 +2495,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3680632019094780780, guid: 7f89f85fe7e9beb4798cf9f1924f88f0, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 216.9488
+      value: 121.5
       objectReference: {fileID: 0}
     - target: {fileID: 3680632019094780780, guid: 7f89f85fe7e9beb4798cf9f1924f88f0, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 73.5739
+      value: 60
       objectReference: {fileID: 0}
     - target: {fileID: 3680632019094780780, guid: 7f89f85fe7e9beb4798cf9f1924f88f0, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -108.474365
+      value: -63
       objectReference: {fileID: 0}
     - target: {fileID: 3680632019094780780, guid: 7f89f85fe7e9beb4798cf9f1924f88f0, type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -2515,19 +2515,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5676633327017598097, guid: 7f89f85fe7e9beb4798cf9f1924f88f0, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 503.3019
+      value: 121.51
       objectReference: {fileID: 0}
     - target: {fileID: 5676633327017598097, guid: 7f89f85fe7e9beb4798cf9f1924f88f0, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 237.4346
+      value: 60
       objectReference: {fileID: 0}
     - target: {fileID: 5676633327017598097, guid: 7f89f85fe7e9beb4798cf9f1924f88f0, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 59.870495
+      value: -60.748
       objectReference: {fileID: 0}
     - target: {fileID: 5676633327017598097, guid: 7f89f85fe7e9beb4798cf9f1924f88f0, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -11
+      value: 29.999998
       objectReference: {fileID: 0}
     - target: {fileID: 8722222452696823508, guid: 7f89f85fe7e9beb4798cf9f1924f88f0, type: 3}
       propertyPath: m_Pivot.x
