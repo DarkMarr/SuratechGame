@@ -24,7 +24,8 @@ public class BtnNextScene : MonoBehaviour
         Debug.Log("DoNextScene");
         if (myType == NextSceneType.Worldmap)
         {
-            SceneMan.GoToQuestion(GameDataService.Instance.myPlayer.currentQuestion);
+            int qustion = GameDataService.Instance.questionList[GameDataService.Instance.myPlayer.currentQuestion];
+            SceneMan.GoToQuestion(qustion);
         }
         else if (myType == NextSceneType.Answer)
         {

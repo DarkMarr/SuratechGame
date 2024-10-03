@@ -1,18 +1,24 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 
 public class GameDataService : Singleton<GameDataService>
 {
     public PlayerVO myPlayer = new PlayerVO();
     public int[] answer = new int[20];
+    public int[] questionList = new int[20];
     public GameDataService()
     {
-        ClearPlayerData();
+        
     }
     public void SaveGameData()
     {
 
+    }
+    void Start()
+    {
+        ClearPlayerData();
     }
 
     public void LogPlayerData()
@@ -33,6 +39,7 @@ public class GameDataService : Singleton<GameDataService>
         myPlayer.currentQuestion = 1;
         myPlayer.playerAvatar = 0;
         ClearAnswer();
+        questionList = GenerateQustionList();
     }
 
     void ClearAnswer()
@@ -43,6 +50,95 @@ public class GameDataService : Singleton<GameDataService>
         }
     }
 
+    int[] GenerateQustionList()
+    {
+        List<int> result = new List<int>();
+
+        int qPerRound = 4;
+        int[] q1 = new int[qPerRound];
+        int startValue = 1;
+        for (int i = 0; i < q1.Length; i++)
+        {
+            q1[i] = i + startValue;
+        }
+        q1 = Shuffle(q1);
+        for (int i = 0; i < q1.Length; i++)
+        {
+            result.Add(q1[i]);
+        }
+
+        int[] q2 = new int[qPerRound];
+        startValue += qPerRound;
+        for (int i = 0; i < q2.Length; i++)
+        {
+            q2[i] = i + startValue;
+        }
+        q2 = Shuffle(q2);
+        for (int i = 0; i < q2.Length; i++)
+        {
+            result.Add(q2[i]);
+        }
+
+        int[] q3 = new int[qPerRound];
+        startValue += qPerRound;
+        for (int i = 0; i < q3.Length; i++)
+        {
+            q3[i] = i + startValue;
+        }
+        q3 = Shuffle(q3);
+        for (int i = 0; i < q3.Length; i++)
+        {
+            result.Add(q3[i]);
+        }
+
+        int[] q4 = new int[qPerRound];
+        startValue += qPerRound;
+        for (int i = 0; i < q4.Length; i++)
+        {
+            q4[i] = i + startValue;
+        }
+        q4 = Shuffle(q4);
+        for (int i = 0; i < q4.Length; i++)
+        {
+            result.Add(q4[i]);
+        }
+
+        int[] q5 = new int[qPerRound];
+        startValue += qPerRound;
+        for (int i = 0; i < q5.Length; i++)
+        {
+            q5[i] = i + startValue;
+        }
+        q5 = Shuffle(q4);
+        for (int i = 0; i < q5.Length; i++)
+        {
+            result.Add(q5[i]);
+        }
+        string log = "Question List = ";
+        for (int i = 0; i < result.Count; i++)
+        {
+           log += result[i]+",";
+        }
+        Debug.Log(log);
+        return result.ToArray();
+    }
+
+
+    int[] Shuffle(int[]  input)
+    {
+        int[]  ts = input;
+        int count = ts.Length;
+        var last = count - 1;
+        for (var i = 0; i < last; ++i)
+        {
+            var r = Random.Range(i, count);
+            var tmp = ts[i];
+            ts[i] = ts[r];
+            ts[r] = tmp;
+        }
+
+        return ts;
+    }
     public void ScoreProcess(int questionNo,int choiceNo)
     {
         answer[questionNo-1] = choiceNo;
