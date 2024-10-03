@@ -165,7 +165,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 7cb9f84fec302d449b631d50b90521fe, type: 3}
+  m_audioClip: {fileID: 8300000, guid: c7655a1cba8b6064db72454b98e39163, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 0.5
   m_Pitch: 1
@@ -360,6 +360,22 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1859108579200350149, guid: 852836d655b7c794c9bad8f7849ac95a, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.043883406
+      objectReference: {fileID: 0}
+    - target: {fileID: 1859108579200350149, guid: 852836d655b7c794c9bad8f7849ac95a, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.99903667
+      objectReference: {fileID: 0}
+    - target: {fileID: 7485689141450616232, guid: 852836d655b7c794c9bad8f7849ac95a, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.9982295
+      objectReference: {fileID: 0}
+    - target: {fileID: 7485689141450616232, guid: 852836d655b7c794c9bad8f7849ac95a, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.05948012
+      objectReference: {fileID: 0}
     - target: {fileID: -8653719598885068355, guid: d08aef0a2478cf846afd2f461320adfb, type: 3}
       propertyPath: m_Name
       value: Student_boy02
@@ -455,22 +471,6 @@ PrefabInstance:
     - target: {fileID: 9164265986159206177, guid: ba15b00501f1d7645ba8b25325f0e2a9, type: 3}
       propertyPath: m_LocalRotation.z
       value: 0.14041637
-      objectReference: {fileID: 0}
-    - target: {fileID: 1859108579200350149, guid: 852836d655b7c794c9bad8f7849ac95a, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.043883406
-      objectReference: {fileID: 0}
-    - target: {fileID: 1859108579200350149, guid: 852836d655b7c794c9bad8f7849ac95a, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0.99903667
-      objectReference: {fileID: 0}
-    - target: {fileID: 7485689141450616232, guid: 852836d655b7c794c9bad8f7849ac95a, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.9982295
-      objectReference: {fileID: 0}
-    - target: {fileID: 7485689141450616232, guid: 852836d655b7c794c9bad8f7849ac95a, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0.05948012
       objectReference: {fileID: 0}
     - target: {fileID: 6947309953391693396, guid: 74dcabe1552544b44aca6ec8afcb184a, type: 3}
       propertyPath: m_LocalRotation.z
