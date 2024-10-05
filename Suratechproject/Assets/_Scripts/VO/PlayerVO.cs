@@ -10,6 +10,7 @@ public class PlayerVO
     public string playerTeacher;
     public int playerAvatar;
     public int currentQuestion;
+    public int currentIndexQuestion;
 
     public float money;
     public float work;

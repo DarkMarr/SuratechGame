@@ -37,6 +37,7 @@ public class GameDataService : Singleton<GameDataService>
         myPlayer.honor = 50;
         myPlayer.relationship = 50;
         myPlayer.currentQuestion = 1;
+        myPlayer.currentIndexQuestion = 0;
         myPlayer.playerAvatar = 0;
         ClearAnswer();
         questionList = GenerateQustionList();

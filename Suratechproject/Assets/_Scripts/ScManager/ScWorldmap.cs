@@ -8,7 +8,7 @@ public class ScWorldmap : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        int waypointIndex = GameDataService.Instance.myPlayer.currentQuestion - 1;
+        int waypointIndex = GameDataService.Instance.myPlayer.currentIndexQuestion ;
         waypointManager.SetStartWaypoint(waypointIndex);
         waypointManager.StartMove();
     }

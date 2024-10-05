@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class BtnNextScene : MonoBehaviour
 {
-    int maxQuextion = 20;
+    int maxQuestion = 20;
     public enum NextSceneType { Worldmap,Answer,GameScore,GraphSummary,Intro,SelectTarget,Outro};
     public NextSceneType myType;
     // Start is called before the first frame update
@@ -24,18 +24,27 @@ public class BtnNextScene : MonoBehaviour
         Debug.Log("DoNextScene");
         if (myType == NextSceneType.Worldmap)
         {
-            int qustion = GameDataService.Instance.questionList[GameDataService.Instance.myPlayer.currentQuestion];
+            int qustion = GameDataService.Instance.questionList[GameDataService.Instance.myPlayer.currentIndexQuestion];
+            Debug.LogFormat("currentQuestion = {0},currentIndexQuestion = {1} , qustion = {2}",
+                GameDataService.Instance.myPlayer.currentQuestion,
+                GameDataService.Instance.myPlayer.currentIndexQuestion,
+                qustion);
             SceneMan.GoToQuestion(qustion);
         }
         else if (myType == NextSceneType.Answer)
         {
-            Debug.Log(GameDataService.Instance.myPlayer.currentQuestion);
-            GameDataService.Instance.myPlayer.currentQuestion++;
+            int qustion = GameDataService.Instance.questionList[GameDataService.Instance.myPlayer.currentIndexQuestion];
+            Debug.Log("DoNextScene >> Answer");
+            Debug.LogFormat("currentQuestion = {0},currentIndexQuestion = {1} , qustion = {2}",
+                GameDataService.Instance.myPlayer.currentQuestion,
+                GameDataService.Instance.myPlayer.currentIndexQuestion,
+                qustion);
+            GameDataService.Instance.myPlayer.currentIndexQuestion++;
             SceneMan.GoToGameScore();
         }
         else if (myType == NextSceneType.GameScore)
         {
-            if (GameDataService.Instance.myPlayer.currentQuestion <= maxQuextion)
+            if (GameDataService.Instance.myPlayer.currentIndexQuestion <= maxQuestion)
             {
                 SceneMan.GoToWorldMap();
             }
