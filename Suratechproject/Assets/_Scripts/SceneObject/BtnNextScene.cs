@@ -44,7 +44,7 @@ public class BtnNextScene : MonoBehaviour
         }
         else if (myType == NextSceneType.GameScore)
         {
-            if (GameDataService.Instance.myPlayer.currentIndexQuestion <= maxQuestion)
+            if (GameDataService.Instance.myPlayer.currentIndexQuestion < maxQuestion)
             {
                 SceneMan.GoToWorldMap();
             }
