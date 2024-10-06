@@ -110,7 +110,7 @@ public class GameDataService : Singleton<GameDataService>
         {
             q5[i] = i + startValue;
         }
-        q5 = Shuffle(q4);
+        q5 = Shuffle(q5);
         for (int i = 0; i < q5.Length; i++)
         {
             result.Add(q5[i]);
