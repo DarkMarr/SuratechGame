@@ -2318,12 +2318,16 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6422120758895052368, guid: c2317a3085c42cf479d5bfa9a8d578a8, type: 3}
       propertyPath: m_Volume
-      value: 0.3
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6422120758895052368, guid: c2317a3085c42cf479d5bfa9a8d578a8, type: 3}
       propertyPath: m_audioClip
       value: 
-      objectReference: {fileID: 8300000, guid: 3849488eaf4b9b343bfebea720ccd435, type: 3}
+      objectReference: {fileID: 8300000, guid: e248fca6ba90d114c907cf6bbcc5a193, type: 3}
+    - target: {fileID: 6422120758895052368, guid: c2317a3085c42cf479d5bfa9a8d578a8, type: 3}
+      propertyPath: panLevelCustomCurve.m_Curve.Array.data[0].value
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 6918825955176306657, guid: c2317a3085c42cf479d5bfa9a8d578a8, type: 3}
       propertyPath: m_Name
       value: Audio_car

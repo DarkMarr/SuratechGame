@@ -2130,12 +2130,16 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2746945693322433909, guid: 34b36a9817d192441929241bc706c0e5, type: 3}
       propertyPath: m_Volume
-      value: 0.2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2746945693322433909, guid: 34b36a9817d192441929241bc706c0e5, type: 3}
       propertyPath: m_audioClip
       value: 
-      objectReference: {fileID: 8300000, guid: 1d2898268d8f1bd48bebc785d7a7e31e, type: 3}
+      objectReference: {fileID: 8300000, guid: f5c7744f6cc57dd4daf4666a413e3a6e, type: 3}
+    - target: {fileID: 2746945693322433909, guid: 34b36a9817d192441929241bc706c0e5, type: 3}
+      propertyPath: panLevelCustomCurve.m_Curve.Array.data[0].value
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 5522334067731817169, guid: 34b36a9817d192441929241bc706c0e5, type: 3}
       propertyPath: m_Name
       value: Audio_song
