@@ -62,4 +62,10 @@ public class SceneMan : Singleton<SceneMan>
         SceneManager.LoadScene("Outro");
     }
 
+    public static void GoToNextScenceByIndex()
+    {
+        int cur = SceneManager.GetActiveScene().buildIndex;
+        SceneManager.LoadScene(cur+1, LoadSceneMode.Single);
+    }
+
 }
