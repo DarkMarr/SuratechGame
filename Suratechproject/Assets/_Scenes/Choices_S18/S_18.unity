@@ -677,7 +677,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7645051031380111665, guid: 202488a49d6ad2a45a53cf7b142c7619, type: 3}
       propertyPath: m_fontColor32.rgba
-      value: 4278190080
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8196883042362300980, guid: 202488a49d6ad2a45a53cf7b142c7619, type: 3}
       propertyPath: m_Name
@@ -877,7 +877,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7693049652751938181, guid: 709c3f683e40782408630286635c1535, type: 3}
       propertyPath: m_fontColor32.rgba
-      value: 0
+      value: 4278190080
       objectReference: {fileID: 0}
     - target: {fileID: 8399269871736983347, guid: 709c3f683e40782408630286635c1535, type: 3}
       propertyPath: m_LocalPosition.x
@@ -947,6 +947,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1056676621}
   - component: {fileID: 1056676620}
+  - component: {fileID: 1056676622}
   m_Layer: 0
   m_Name: Audio
   m_TagString: Untagged
@@ -1065,6 +1066,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1056676622
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1056676619}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d68b1e2f9e8845f4aa070e1d159f10be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  boySounds: {fileID: 2136506325}
+  girlSounds: {fileID: 37819872}
 --- !u!1 &1288100454
 GameObject:
   m_ObjectHideFlags: 0
