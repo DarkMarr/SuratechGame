@@ -42,6 +42,7 @@ public class WaypointManager : MonoBehaviour
                     SpriteRenderer[] sr = waypoints[i].GetComponentsInChildren<SpriteRenderer>();
                     if(sr.Length >1)
                     {
+                        sr[0].gameObject.SetActive(true);
                         sr[1].gameObject.SetActive(true);
                     }
                 }
@@ -51,6 +52,7 @@ public class WaypointManager : MonoBehaviour
                     SpriteRenderer[] sr = waypoints[i].GetComponentsInChildren<SpriteRenderer>();
                     if (sr.Length > 1)
                     {
+                        sr[0].gameObject.SetActive(true);
                         sr[1].gameObject.SetActive(true);
                     }
                 }
