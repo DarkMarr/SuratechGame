@@ -30,29 +30,28 @@ public class WaypointManager : MonoBehaviour
 
     void PrepareNumberColor()
     {
-        int waypointIndex = GameDataService.Instance.myPlayer.currentIndexQuestion;
+        int waypointIndex = GameDataService.Instance.myPlayer.currentIndexQuestion+1;
         for (int i = 0;i<waypoints.Length;i++)
         {
             TMP_Text txt = waypoints[i].GetComponentInChildren<TMP_Text>();
-            if(txt != null)
+
+            if (txt != null)
             {
-                if(i < waypointIndex)
+                if(i<waypointIndex)
                 {
                     txt.color = passColor;
                     SpriteRenderer[] sr = waypoints[i].GetComponentsInChildren<SpriteRenderer>();
                     if(sr.Length >1)
                     {
-                        sr[0].gameObject.SetActive(true);
                         sr[1].gameObject.SetActive(true);
                     }
                 }
                 else if (i == waypointIndex)
                 {
-                    txt.color = passColor;
+                    txt.color = currentColor;
                     SpriteRenderer[] sr = waypoints[i].GetComponentsInChildren<SpriteRenderer>();
                     if (sr.Length > 1)
                     {
-                        sr[0].gameObject.SetActive(true);
                         sr[1].gameObject.SetActive(true);
                     }
                 }
