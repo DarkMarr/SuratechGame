@@ -16,9 +16,9 @@ public class GameDataService : Singleton<GameDataService>
     {
 
     }
-    void Start()
+    void Awake()
     {
-        ClearPlayerData();
+       ClearPlayerData();
     }
 
     public void LogPlayerData()
@@ -28,6 +28,7 @@ public class GameDataService : Singleton<GameDataService>
 
     public void ClearPlayerData()
     {
+        Debug.LogFormat("ClearPlayerData()");
         myPlayer.playerName = "นิรนาม";
         myPlayer.playerCenter = "ศูนย์นิรนาม";
         myPlayer.playerTeacher = "ครูนิรนาม";
