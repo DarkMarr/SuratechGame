@@ -2,8 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using UnityEngine.UI;
 public class ScInputPlayerData : MonoBehaviour
 {
+    [SerializeField] Button saveButton;
     public TMP_InputField infName;
     public TMP_InputField infAge;
     public TMP_InputField infCenter;
@@ -11,7 +13,7 @@ public class ScInputPlayerData : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        ValidateData();
     }
 
     // Update is called once per frame
@@ -38,5 +40,21 @@ public class ScInputPlayerData : MonoBehaviour
     {
         int result;
         return int.TryParse(value, out result) ? result : defaultValue;
+    }
+
+    public void ValidateData()
+    {
+        if (infName.text.Length > 0
+            && infAge.text.Length > 0
+            && infCenter.text.Length > 0
+            && infTeacher.text.Length > 0
+            )
+        {
+            saveButton.gameObject.SetActive(true);
+        }
+        else
+        {
+            saveButton.gameObject.SetActive(false);
+        }
     }
 }
