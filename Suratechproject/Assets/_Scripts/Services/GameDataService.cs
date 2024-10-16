@@ -18,7 +18,7 @@ public class GameDataService : Singleton<GameDataService>
     }
     void Awake()
     {
-       ClearPlayerData();
+        ClearPlayerData();
     }
 
     public void LogPlayerData()
