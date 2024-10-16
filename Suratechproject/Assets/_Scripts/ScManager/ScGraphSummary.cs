@@ -52,7 +52,7 @@ public class ScGraphSummary : MonoBehaviour
     {
         //Base Score 50 + MaxScore 50
         float maxScore = 100f;
-        float maxPosition = 175f;
+        float maxPosition = 87.5f;
         float result = (maxPosition * score )/ maxScore;
         if (result<0)
         {
@@ -150,19 +150,19 @@ public class ScGraphSummary : MonoBehaviour
             string charecter = "";
             switch(player.playerAvatar)
             {
-                case 1:
+                case 0:
                     gender = "ช";
                     charecter = "M1";
                     break;
-                case 2:
+                case 1:
                     gender = "ช";
                     charecter = "M2";
                     break;
-                case 3:
+                case 2:
                     gender = "ญ";
                     charecter = "F1";
                     break;
-                case 4:
+                case 3:
                     gender = "ญ";
                     charecter = "F2";
                     break;
