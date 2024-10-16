@@ -7,12 +7,13 @@ public class ScSelectTarget : MonoBehaviour
 {
     [SerializeField] GameObject[] targets;
     [SerializeField] GameObject[] Chooses;
+    [SerializeField] Button saveButton;
     int[] targetsChoose = new int[4];
     Sprite[] emptyTargets = new Sprite[4];
     // Start is called before the first frame update
     void Start()
     {
-        
+        ValidateData();
     }
 
     // Update is called once per frame
@@ -22,7 +23,7 @@ public class ScSelectTarget : MonoBehaviour
     }
     int GetNextTarget()
     {
-        int result = 0;
+        int result = -1;
         for (int i = 0; i < targetsChoose.Length; i++)
         {
             if (targetsChoose[i] == 0)
@@ -65,6 +66,7 @@ public class ScSelectTarget : MonoBehaviour
         targets[indexTarget].GetComponent<Image>().sprite = img;
         targets[indexTarget].GetComponentInChildren<TMP_Text>().enabled = false;
         targetsChoose[indexTarget] = choice;
+        ValidateData();
     }
     public void DoTarget1()
     {
@@ -98,5 +100,18 @@ public class ScSelectTarget : MonoBehaviour
             targets[indexTarget].GetComponentInChildren<TMP_Text>().enabled = true;
         }
         targetsChoose[indexTarget] = 0;
+        ValidateData();
+    }
+
+    void ValidateData()
+    {
+        if(GetNextTarget() == -1)
+        {
+            saveButton.gameObject.SetActive(true);
+        }
+        else
+        {
+            saveButton.gameObject.SetActive(false);
+        }
     }
 }
