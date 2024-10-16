@@ -39,14 +39,29 @@ public class WaypointManager : MonoBehaviour
                 if(i < waypointIndex)
                 {
                     txt.color = passColor;
+                    SpriteRenderer sr = waypoints[i].GetComponentInChildren<SpriteRenderer>();
+                    if(sr != null)
+                    {
+                        sr.gameObject.SetActive(true);
+                    }
                 }
                 else if (i == waypointIndex)
                 {
                     txt.color = passColor;
+                    SpriteRenderer sr = waypoints[i].GetComponentInChildren<SpriteRenderer>();
+                    if (sr != null)
+                    {
+                        sr.gameObject.SetActive(true);
+                    }
                 }
                 else 
                 {
                     txt.color = futureColor;
+                    SpriteRenderer sr = waypoints[i].GetComponentInChildren<SpriteRenderer>();
+                    if (sr != null)
+                    {
+                        sr.gameObject.SetActive(false);
+                    }
                 }
             }
         }
