@@ -2011,6 +2011,10 @@ PrefabInstance:
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 6925816206242944018, guid: 964770e4d5bea2b45be909c17087cefc, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 73ab0f10bc29dee478d4e11b4500a1af, type: 2}
+    - target: {fileID: 6925816206242944018, guid: 964770e4d5bea2b45be909c17087cefc, type: 3}
       propertyPath: m_fontColor.b
       value: 1
       objectReference: {fileID: 0}
@@ -2023,8 +2027,16 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6925816206242944018, guid: 964770e4d5bea2b45be909c17087cefc, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 7541378969202122959, guid: 73ab0f10bc29dee478d4e11b4500a1af, type: 2}
+    - target: {fileID: 6925816206242944018, guid: 964770e4d5bea2b45be909c17087cefc, type: 3}
       propertyPath: m_fontColor32.rgba
       value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 6925816206242944018, guid: 964770e4d5bea2b45be909c17087cefc, type: 3}
+      propertyPath: m_hasFontAssetChanged
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8119344314082045607, guid: 964770e4d5bea2b45be909c17087cefc, type: 3}
       propertyPath: m_Pivot.x
