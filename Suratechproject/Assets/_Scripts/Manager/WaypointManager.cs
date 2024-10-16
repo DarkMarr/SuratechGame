@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using System;
+using TMPro;
 
 public class WaypointManager : MonoBehaviour
 {
@@ -9,6 +10,12 @@ public class WaypointManager : MonoBehaviour
     GameObject[] waypoints;
     [SerializeField]
     GameObject player;
+    [SerializeField]
+    Color passColor = Color.red;
+    [SerializeField]
+    Color currentColor = Color.white;
+    [SerializeField]
+    Color futureColor = Color.gray;
     public float speed = 0.05f;
     int currentWP = 0;
     float lookAhead = 0.01f;
@@ -18,7 +25,31 @@ public class WaypointManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        PrepareNumberColor();
+    }
 
+    void PrepareNumberColor()
+    {
+        int waypointIndex = GameDataService.Instance.myPlayer.currentIndexQuestion;
+        for (int i = 0;i<waypoints.Length;i++)
+        {
+            TMP_Text txt = waypoints[i].GetComponentInChildren<TMP_Text>();
+            if(txt != null)
+            {
+                if(i < waypointIndex)
+                {
+                    txt.color = passColor;
+                }
+                else if (i == waypointIndex)
+                {
+                    txt.color = passColor;
+                }
+                else 
+                {
+                    txt.color = futureColor;
+                }
+            }
+        }
     }
 
     public void SetStartWaypoint(int question)
